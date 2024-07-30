@@ -1,6 +1,5 @@
 User-agent: *
 Disallow: /registerStep1?*
 Disallow: /login?*
-Disallow: /undefined
 
 Sitemap: https://www.sugar-daddy-ae.com/sitemap.xml
