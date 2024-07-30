@@ -43,7 +43,7 @@ return (
         , INC. All rights reserved.
       </p>
       <p className='text-xs pt-2 text-light-500 dark:text-gray-500'>
-        إخلاء المسؤولية: يجب أن يكون عمرك أكثر من 19 عامًا للانضمام. Sugar-daddy-ae.com ليست خدمة مرافقة. Sugar-daddy-ae.com
+        إخلاء المسؤولية: يجب أن يكون عمرك أكثر من 19 عامًا للانضمام. sugar-daddy-ae.com ليست خدمة مرافقة. sugar-daddy-ae.com
  لا يدعم المرافقة أو الدعارة. الملفات الشخصية التي قد تنتهك هذه الشروط و
  سيتم حظر الخدمات.
       </p>
