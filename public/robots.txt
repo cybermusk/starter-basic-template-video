@@ -1,3 +1,7 @@
 User-agent: *
 Disallow: /registerStep1?*
 Disallow: /login?*
+Disallow：/ar
+Disallow：/*/https:*
+Disallow：/https:*
+Disallow：/undefined
