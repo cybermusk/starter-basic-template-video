@@ -1,8 +1,8 @@
 User-agent: *
 Disallow: /registerStep1?*
 Disallow: /login?*
-Disallow: /ar
+Disallow: /en
 Disallow: /https:
 Disallow: /undefined
 
-Sitemap: https://www.sugar-daddy-ae.com/sitemap.xml
+Sitemap: https://www.sugar-daddy-canada.com/sitemap.xml
