@@ -36,9 +36,9 @@ return (
         {title} {siteConfig('BIO') && <>|</>} {siteConfig('BIO')}
       </p>
       <p className='text-xs pt-2 text-light-500 dark:text-gray-500'>
-        Copyright © 2024{' '}
+        Copyright © 2007-2024{' '}
         <a href='https://www.sugar-daddy-canada.com' className='dark:text-gray-300'>
-          www.sugar-daddy-canada.com
+          sugar-daddy-canada.com
         </a>
         , INC. All rights reserved.
       </p>
