@@ -96,8 +96,6 @@ const GlobalHead = props => {
   return (
     <Head>
       <link rel='icon' href={favicon} />
-      <link rel="alternate" href="https://www.sugar-daddy-ae.com" hreflang="ar" />
-      <link rel="alternate" href="https://www.sugar-daddy-ae.com/lang-en" hreflang="en" />
       <title>{title}</title>
       <meta name='theme-color' content={BACKGROUND_DARK} />
       <meta
@@ -165,7 +163,7 @@ const GlobalHead = props => {
       {`{
         "@context": "https://schema.org",
         "@type": "WebSite",
-        "name": "Sugar Daddy UAE"
+        "name": "Sugar Daddy Canada"
       }`}
       </script>
        
