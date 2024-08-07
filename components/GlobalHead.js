@@ -160,11 +160,11 @@ const GlobalHead = props => {
       )}
 
       <script type="application/ld+json">
-      {`{
+      {
         "@context": "https://schema.org",
         "@type": "WebSite",
         "name": "Sugar Daddy Canada"
-      }`}
+      }
       </script>
        
       {children}
