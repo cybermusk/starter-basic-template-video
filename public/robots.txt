@@ -4,5 +4,6 @@ Disallow: /login?*
 Disallow: /en
 Disallow: /https:
 Disallow: /undefined
+Disallow: /tag
 
-Sitemap: https://www.sugar-daddy-canada.com/sitemap.xml
+Sitemap: https://www.sugardaddymeet-nz.com/sitemap.xml
