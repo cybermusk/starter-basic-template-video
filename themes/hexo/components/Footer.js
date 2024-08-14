@@ -37,13 +37,13 @@ return (
       </p>
       <p className='text-xs pt-2 text-light-500 dark:text-gray-500'>
         Copyright © 2007-2024{' '}
-        <a href='https://www.sugar-daddy-canada.com' className='dark:text-gray-300'>
-          sugar-daddy-canada.com
+        <a href='https://www.sugardaddymeet-nz.com' className='dark:text-gray-300'>
+          sugardaddymeet-nz.com
         </a>
         , INC. All rights reserved.
       </p>
       <p className='text-xs pt-2 text-light-500 dark:text-gray-500'>
-        Disclaimer: You must be over 19 to join. Sugar-Daddy-Canada is not an escort service. Sugar-Daddy-Canada does not support escorts or prostitution. Profiles that may violate these terms and services will be banned.
+        Disclaimer: You must be over 19 to join. SugarDaddyMeet-NZ is not an escort service. SugarDaddyMeet-NZ does not support escorts or prostitution. Profiles that may violate these terms and services will be banned.
       </p>
     </span>
   </footer>
