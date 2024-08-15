@@ -18,7 +18,7 @@ export function InfoCard(props) {
             <div
                 className='justify-center items-center flex py-6 dark:text-gray-100  transform duration-200 cursor-pointer'
                 onClick={() => {
-                  window.location.href = 'https://www.sugardaddymeet.com?tid=af100028782-m';
+                  window.location.href = 'https://www.sugardaddymeet.com?tid=af100028782_bl5';
                 }}
             >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
