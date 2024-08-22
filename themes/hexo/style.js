@@ -13,6 +13,25 @@ const Style = () => {
     .dark body{
         background-color: black;
     }
+
+    /*  主图上增加大按钮 */
+    .cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    transition: background 0.3s ease;
+    margin-left: 15px; /* 按钮与其他元素的间距 */
+    }
+    
+    .cta-button:hover {
+        background: linear-gradient(90deg, #feb47b, #ff7e5f);
+    }
   
     /*  菜单下划线动画 */
     #theme-hexo .menu-link {
