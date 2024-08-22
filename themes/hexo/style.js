@@ -37,7 +37,7 @@ const Style = () => {
       padding: 8px 90px;
       border-radius: 60px; /* 圆角矩形 */
       background: transparent;
-      border: 2px solid;
+      border: 2px solid #feb47b;
       font-size: 16px;
       font-weight: bold;
       cursor: pointer;
