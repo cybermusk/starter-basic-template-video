@@ -43,10 +43,6 @@ const Style = () => {
       cursor: pointer;
       transition: border 0.3s ease;
     }
-    
-    .log-in:hover {
-      border-image: linear-gradient(to right, #feb47b, #ff7e5f) 1;
-    }
 /* ---到此结束--- */
   
     /*  菜单下划线动画 */
