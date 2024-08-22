@@ -77,15 +77,15 @@ const Hero = props => {
 
        {/* 添加“Create Account”按钮 */}
       <div className="flex flex-col items-center mt-4 space-y-4">
-        <a href="https://www.sugardaddymeet.com" className="cta-button-flat">
+        <a href="https://www.sugardaddymeet.com" className="create-account">
           Create account
         </a>
       
         {/* 添加“Login”按钮 */}
-        <a href="https://www.sugardaddymeet.com/login" className="cta-button-outline">
+        <a href="https://www.sugardaddymeet.com/login" className="log-in">
           Log in
         </a>
-        </div>
+      </div>
 
         {/* 首页导航大按钮 */}
         {siteConfig('HEXO_HOME_NAV_BUTTONS', null, CONFIG) && (
