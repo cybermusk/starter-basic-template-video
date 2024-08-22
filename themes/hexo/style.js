@@ -18,7 +18,7 @@ const Style = () => {
 /* ---从此开始--- */
      .cta-button-flat, .cta-button-outline {
       display: inline-block;
-      padding: 12px 40px;
+      padding: 12px 80px;
       font-size: 16px;
       font-weight: bold;
       text-align: center;
