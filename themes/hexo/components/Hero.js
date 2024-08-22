@@ -75,6 +75,13 @@ const Hero = props => {
           <span id='typed' />
         </div>
 
+        {/* 添加扁平按钮 */}
+        <div className="flex justify-center mt-4">
+          <a href="https://www.sugardaddymeet.com" className="cta-button-flat">
+            Create Account
+          </a>
+        </div>
+
         {/* 首页导航大按钮 */}
         {siteConfig('HEXO_HOME_NAV_BUTTONS', null, CONFIG) && (
           <NavButtonGroup {...props} />
