@@ -75,11 +75,16 @@ const Hero = props => {
           <span id='typed' />
         </div>
 
-        {/* 添加扁平按钮 */}
-        <div className="flex justify-center mt-4">
-          <a href="https://www.sugardaddymeet.com" className="cta-button-flat">
-            Create Account
-          </a>
+       {/* 添加“Create Account”按钮 */}
+      <div className="flex flex-col items-center mt-4 space-y-4">
+        <a href="https://www.sugardaddymeet.com" className="cta-button-flat">
+          Create account
+        </a>
+      
+        {/* 添加“Login”按钮 */}
+        <a href="https://www.sugardaddymeet.com/login" className="cta-button-outline">
+          Log in
+        </a>
         </div>
 
         {/* 首页导航大按钮 */}
