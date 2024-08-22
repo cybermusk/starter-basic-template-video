@@ -16,45 +16,45 @@ const Style = () => {
 
     /*  主图上增加大按钮 */
 /* ---从此开始--- */
-   .cta-button-flat, .cta-button-outline {
-    display: inline-block;
-    padding: 12px 40px; /* 调整按钮长度 */
-    font-size: 16px;
-    font-weight: bold;
-    color: #fff;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 25px;
-    transition: all 0.3s ease;
-    width: 100%; /* 使按钮占据可用宽度 */
-    max-width: 300px; /* 限制最大宽度 */
-    }
-    
-    /* “Create account” 按钮样式 */
-    .cta-button-flat {
-        background: linear-gradient(90deg, #ff7e5f, #feb47b);
-        border: none;
-        box-shadow: none;
-    }
-    
-    /* “Log in” 按钮样式 */
-    .cta-button-outline {
-        background: transparent;
-        color: #ff7e5f;
-        border: 2px solid;
-        border-image-slice: 1;
-        border-image-source: linear-gradient(90deg, #ff7e5f, #feb47b);
-    }
-    
-    /* 悬停效果 */
-    .cta-button-flat:hover, .cta-button-outline:hover {
-        transform: scale(1.05);
-    }
-    
-    .cta-button-outline:hover {
-        background: linear-gradient(90deg, #ff7e5f, #feb47b);
-        color: #fff;
-    }
+     .cta-button-flat, .cta-button-outline {
+      display: inline-block;
+      padding: 12px 40px;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 25px;
+      transition: all 0.3s ease;
+      width: 100%;
+      max-width: 300px;
+      }
+      
+      /* “Create Account” 按钮 */
+      .cta-button-flat {
+          background: linear-gradient(90deg, #ff7e5f 0%, #feb47b 100%);
+          color: #fff;
+          border: none;
+      }
+      
+      /* “Login” 按钮 */
+      .cta-button-outline {
+          background: transparent;
+          color: #fff;
+          border: 2px solid transparent;
+          border-image: linear-gradient(90deg, #ff7e5f 0%, #feb47b 100%);
+          border-image-slice: 1;
+      }
+      
+      /* 悬停效果 */
+      .cta-button-flat:hover, .cta-button-outline:hover {
+          transform: scale(1.05);
+      }
+      
+      .cta-button-outline:hover {
+          background: linear-gradient(90deg, #ff7e5f 0%, #feb47b 100%);
+          color: #fff;
+          border: 2px solid transparent;
+      }
 /* ---到此结束--- */
   
     /*  菜单下划线动画 */
