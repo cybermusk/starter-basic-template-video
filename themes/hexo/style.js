@@ -31,7 +31,7 @@ const Style = () => {
       
       /* “Create Account” 按钮 */
       .cta-button-flat {
-          background: linear-gradient(90deg, #ff7e5f 0%, #feb47b 100%);
+          background: linear-gradient(90deg, #ff7e5f, #feb47b);
           color: #fff;
           border: none;
       }
