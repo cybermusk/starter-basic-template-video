@@ -158,11 +158,6 @@ const Header = props => {
             <Logo {...props} />
           </div>
 
-          {/* 添加主图大按钮Create Account*/}
-          <a href="https://www.sugardaddymeet.com" className="cta-button">
-            Create Account
-          </a>
-
           {/* 右侧功能 */}
           <div className='mr-1 flex justify-end items-center '>
             <div className='hidden lg:flex'>
