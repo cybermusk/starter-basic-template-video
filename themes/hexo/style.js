@@ -15,23 +15,47 @@ const Style = () => {
     }
 
     /*  主图上增加大按钮 */
-   .cta-button-flat {
-      display: inline-block;
-      padding: 10px 20px;
-      font-size: 16px;
-      font-weight: bold;
-      color: #fff;
-      background: linear-gradient(90deg, #ff7e5f, #feb47b);
-      border-radius: 20px; /* 更小的圆角，使按钮更加扁平 */
-      text-align: center;
-      text-decoration: none;
-      transition: background 0.3s ease;
-      box-shadow: none; /* 去掉阴影使按钮更扁平 */
-  }
-  
-  .cta-button-flat:hover {
-      background: linear-gradient(90deg, #feb47b, #ff7e5f);
-  }
+/* ---从此开始--- */
+   .cta-button-flat, .cta-button-outline {
+    display: inline-block;
+    padding: 12px 40px; /* 调整按钮长度 */
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    width: 100%; /* 使按钮占据可用宽度 */
+    max-width: 300px; /* 限制最大宽度 */
+    }
+    
+    /* “Create account” 按钮样式 */
+    .cta-button-flat {
+        background: linear-gradient(90deg, #ff7e5f, #feb47b);
+        border: none;
+        box-shadow: none;
+    }
+    
+    /* “Log in” 按钮样式 */
+    .cta-button-outline {
+        background: transparent;
+        color: #ff7e5f;
+        border: 2px solid;
+        border-image-slice: 1;
+        border-image-source: linear-gradient(90deg, #ff7e5f, #feb47b);
+    }
+    
+    /* 悬停效果 */
+    .cta-button-flat:hover, .cta-button-outline:hover {
+        transform: scale(1.05);
+    }
+    
+    .cta-button-outline:hover {
+        background: linear-gradient(90deg, #ff7e5f, #feb47b);
+        color: #fff;
+    }
+/* ---到此结束--- */
   
     /*  菜单下划线动画 */
     #theme-hexo .menu-link {
