@@ -17,8 +17,8 @@ const Style = () => {
     /*  主图上增加大按钮 */
 /* ---从此开始--- */
      .create-account {
-      padding: 12px 80px;
-      border-radius: 20px; /* 圆角矩形 */
+      padding: 10px 80px;
+      border-radius: 60px; /* 圆角矩形 */
       background: linear-gradient(to right, #ff7e5f, #feb47b);
       border: none;
       font-size: 16px;
@@ -33,7 +33,7 @@ const Style = () => {
     
     // Log In Button
     .log-in {
-      padding: 12px 80px;
+      padding: 10px 110px;
       border-radius: 20px; /* 圆角矩形 */
       background: transparent;
       border: 2px solid;
