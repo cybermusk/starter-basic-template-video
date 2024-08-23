@@ -65,13 +65,13 @@ const Hero = props => {
       className='w-full h-screen relative bg-black'>
       <div className='text-white absolute bottom-0 flex flex-col h-full items-center justify-center w-full '>
         {/* 站点标题 */}
-        <h1>
+        <h1 style="margin-top: -40px;">
           <div className='font-black text-4xl md:text-5xl shadow-text'>
             {siteInfo?.title || siteConfig('TITLE')}
           </div>
         </h1>
         {/* 站点欢迎语 */}
-        <div className='mt-2 h-12 items-center text-center font-medium shadow-text text-lg'>
+        <div className='mt-2 h-12 items-center text-center font-medium shadow-text text-lg' style="margin-top: 20px; margin-bottom: 10px;">
           <span id='typed' />
         </div>
 
@@ -82,7 +82,7 @@ const Hero = props => {
         </a>
       
         {/* 添加“Login”按钮 */}
-        <a href="https://www.sugardaddymeet.com/login" className="log-in">
+        <a href="https://www.sugardaddymeet.com/login" className="log-in" style="margin-top: 20px;">
           Log in
         </a>
       </div>
