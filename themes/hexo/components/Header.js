@@ -149,7 +149,6 @@ const Header = props => {
       {/* 导航栏 */}
       <div
         id='sticky-nav'
-        style={{ backdropFilter: 'blur(3px)' }}
         className={
           'top-0 duration-300 transition-all  shadow-none fixed bg-none dark:bg-hexo-black-gray dark:text-gray-200 text-black w-full z-20 transform border-transparent dark:border-transparent'
         }>
