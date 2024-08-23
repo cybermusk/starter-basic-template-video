@@ -14,6 +14,17 @@ const Style = () => {
         background-color: black;
     }
 
+    /* h1样式 */
+    .title-h1 {
+    margin-top: -40px;
+    }
+
+    /* 欢迎语样式 */
+    .welcome {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    }
+
     /*  主图上增加大按钮 */
 /* ---从此开始--- */
       //注册按钮
