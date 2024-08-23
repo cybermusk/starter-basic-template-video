@@ -35,6 +35,7 @@ const Style = () => {
     //登录按钮
     .log-in {
       padding: 8px 90px;
+      margin-top: 20px;
       border-radius: 60px; /* 圆角矩形 */
       background: transparent;
       border: 2px solid #feb47b;
