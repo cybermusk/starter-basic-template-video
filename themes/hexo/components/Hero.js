@@ -82,7 +82,7 @@ const Hero = props => {
         </a>
       
         {/* 添加“Login”按钮 */}
-        <a href="https://www.sugardaddymeet.com/login" className="log-in" style="margin-top: 20px;">
+        <a href="https://www.sugardaddymeet.com/login" className="log-in">
           Log in
         </a>
       </div>
