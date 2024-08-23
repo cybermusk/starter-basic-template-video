@@ -14,6 +14,8 @@ const Style = () => {
         background-color: black;
     }
 
+    
+/* ---从此开始--- */
     /* h1样式 */
     .title-h1 {
     margin-top: -40px;
@@ -26,7 +28,6 @@ const Style = () => {
     }
 
     /*  主图上增加大按钮 */
-/* ---从此开始--- */
       //注册按钮
      .create-account {
       padding: 10px 60px;
