@@ -77,12 +77,12 @@ const Hero = props => {
 
        {/* 添加“Create Account”按钮 */}
       <div className="flex flex-col items-center mt-4 space-y-4">
-        <a href="https://www.sugardaddymeet.com" className="create-account">
+        <a href="https://www.sugardaddymeet.com/registerStep1?tid=af100028782_bl6" className="create-account">
           Create account
         </a>
       
         {/* 添加“Login”按钮 */}
-        <a href="https://www.sugardaddymeet.com/login" className="log-in">
+        <a href="https://www.sugardaddymeet.com/login?tid=af100028782_bl6" className="log-in">
           Log in
         </a>
       </div>
