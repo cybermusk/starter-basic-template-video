@@ -95,7 +95,7 @@ const GlobalHead = props => {
 
   return (
     <Head>
-      <link rel='icon' href={favicon} />
+      <link rel='icon' href={favicon} type="image/x-icon" />
       <title>{title}</title>
       <meta name='theme-color' content={BACKGROUND_DARK} />
       <meta
