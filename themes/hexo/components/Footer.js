@@ -51,15 +51,15 @@ const Footer = ({ title }) => {
           Disclaimer: You must be over 19 to join. SugarDaddyMeet-NZ is not an escort service. SugarDaddyMeet-NZ does not support escorts or prostitution. Profiles that may violate these terms and services will be banned.
         </p>
       </span>
-      <div className='flex justify-center space-x-8 text-xs pt-4 text-light-500 dark:text-gray-500'>
-        <div className='flex flex-col'>
+      <div className='flex justify-center space-x-16 text-xs pt-4 text-light-500 dark:text-gray-500'>
+        <div className='flex flex-col text-left'>
           <h4 className='font-bold'>OUR COMPANY</h4>
           <a href='/company/about-us' className='hover:underline'>About Us</a>
           <a href='/support/feedbacks' className='hover:underline'>Contact Us</a>
           <a href='/support/faq' className='hover:underline'>Help and FAQ</a>
           <a href='/Become-an-Affiliate' className='hover:underline'>Become an Affiliate</a>
         </div>
-        <div className='flex flex-col'>
+        <div className='flex flex-col text-left'>
           <h4 className='font-bold'>SAFETY</h4>
           <a href='/safety/privacy-policy' className='hover:underline'>Privacy Policy</a>
           <a href='/safety/service-agreement' className='hover:underline'>Service Agreement</a>
@@ -68,7 +68,7 @@ const Footer = ({ title }) => {
           <a href='/safety/fighting-human-trafficking' className='hover:underline'>Stop Sex & Human Trafficking</a>
           <a href='/safety/no-sell-or-share' className='hover:underline'>Do Not Sell or Share My Personal Information</a>
         </div>
-        <div className='flex flex-col'>
+        <div className='flex flex-col text-left'>
           <h4 className='font-bold'>OTHER DATING LOCATIONS</h4>
           <a href='https://www.sugardaddysingapore.com' className='hover:underline'>Sugar Daddy Singapore</a>
           <a href='https://www.sugardaddycanada.com' className='hover:underline'>Sugar Daddy Canada</a>
@@ -80,13 +80,13 @@ const Footer = ({ title }) => {
               <a href='https://www.sugardaddyuae.com' className='hover:underline'>Sugar Daddy UAE</a>
             </>
           )}
-          <button onClick={toggleExpand} className='pt-2 text-light-500 dark:text-gray-500'>
+          <button onClick={toggleExpand} className='pt-2 text-left text-light-500 dark:text-gray-500'>
             {isExpanded ? '<<Less' : 'More>>'}
           </button>
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
