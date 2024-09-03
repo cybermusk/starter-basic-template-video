@@ -17,9 +17,11 @@ const Footer = ({ title }) => {
       <i className='fas fa-copyright' /> {`${copyrightDate}`}
       <span>
         <i className='mx-1 animate-pulse fas fa-heart' />{' '}
-        <a href={siteConfig('LINK')} className='font-bold dark:text-gray-300 hover:underline'>
-          {siteConfig('AUTHOR')}
-        </a>
+        <h3>
+          <a href={siteConfig('LINK')} className='font-bold dark:text-gray-300 hover:underline'>
+            {siteConfig('AUTHOR')}
+          </a>
+        </h3>
         .<br />
         {siteConfig('BEI_AN') && (
           <>
