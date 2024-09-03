@@ -97,12 +97,12 @@ const Footer = ({ title }) => {
         {/* Column 4 */}
         <div className='flex flex-col text-left'>
           <h4 className='font-bold mb-2'>DOWNLOAD APP</h4>
-          <div className='flex justify-start mt-2'>
+          <div className='flex justify-start mt-2 space-x-2'>
             <a href='https://www.sugardaddymeet.com/registerStep1?tid=af100028782_qqx' target='_blank' rel='noopener noreferrer'>
-              <img src='https://raw.githubusercontent.com/icon-other/icon/main/download/App%20Store.png' alt='Download By App Store' className='w-24 h-auto mx-2' />
+              <img src='https://raw.githubusercontent.com/icon-other/icon/main/download/App%20Store.png' alt='Download By App Store' className='w-24 h-auto' />
             </a>
             <a href='https://www.sugardaddymeet.com/registerStep1?tid=af100028782_qqx' target='_blank' rel='noopener noreferrer'>
-              <img src='https://raw.githubusercontent.com/icon-other/icon/main/download/Google%20Play.png' alt='Download By Google Play' className='w-24 h-auto mx-2' />
+              <img src='https://raw.githubusercontent.com/icon-other/icon/main/download/Google%20Play.png' alt='Download By Google Play' className='w-24 h-auto' />
             </a>
           </div>
         </div>
