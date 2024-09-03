@@ -17,7 +17,7 @@ const Footer = ({ title }) => {
       <i className='fas fa-copyright' /> {`${copyrightDate}`}
       <span>
         <i className='mx-1 animate-pulse fas fa-heart' />{' '}
-        <a href={siteConfig('LINK')} className='font-bold dark:text-gray-300'>
+        <a href={siteConfig('LINK')} className='font-bold dark:text-gray-300 hover:underline'>
           {siteConfig('AUTHOR')}
         </a>
         .<br />
@@ -54,7 +54,7 @@ const Footer = ({ title }) => {
       <div className='flex flex-col md:flex-row justify-center space-y-8 md:space-y-0 md:space-x-16 text-xs pt-4 text-light-500 dark:text-gray-500'>
         {/* Column 1 */}
         <div className='flex flex-col text-left'>
-          <h4 className='font-bold'>OUR COMPANY</h4>
+          <h4 className='font-bold mb-4'>OUR COMPANY</h4>
           <a href='/company/about-us' className='hover:underline'>About Us</a>
           <a href='/support/feedbacks' className='hover:underline'>Contact Us</a>
           <a href='/support/faq' className='hover:underline'>Help and FAQ</a>
@@ -63,7 +63,7 @@ const Footer = ({ title }) => {
         
         {/* Column 2 */}
         <div className='flex flex-col text-left'>
-          <h4 className='font-bold'>SAFETY</h4>
+          <h4 className='font-bold mb-4'>SAFETY</h4>
           <a href='/safety/privacy-policy' className='hover:underline'>Privacy Policy</a>
           <a href='/safety/service-agreement' className='hover:underline'>Service Agreement</a>
           <a href='/safety/notice-of-collection' className='hover:underline'>Notice of Collection</a>
@@ -74,15 +74,15 @@ const Footer = ({ title }) => {
         
         {/* Column 3 */}
         <div className='flex flex-col text-left'>
-          <h4 className='font-bold'>OTHER DATING LOCATIONS</h4>
-          <a href='https://www.sugardaddysingapore.com' className='hover:underline'>Sugar Daddy Singapore</a>
-          <a href='https://www.sugardaddycanada.com' className='hover:underline'>Sugar Daddy Canada</a>
-          <a href='https://www.sugardaddyaustralia.com' className='hover:underline'>Sugar Daddy Australia</a>
-          <a href='https://www.sugardaddybelgium.com' className='hover:underline'>Sugar Daddy Belgium</a>
+          <h4 className='font-bold mb-4'>OTHER DATING LOCATIONS</h4>
+          <a href='https://www.sugardaddysingapore.com' target='_blank' className='hover:underline'>Sugar Daddy Singapore</a>
+          <a href='https://www.sugardaddycanada.com' target='_blank' className='hover:underline'>Sugar Daddy Canada</a>
+          <a href='https://www.sugardaddyaustralia.com' target='_blank' className='hover:underline'>Sugar Daddy Australia</a>
+          <a href='https://www.sugardaddybelgium.com' target='_blank' className='hover:underline'>Sugar Daddy Belgium</a>
           {isExpanded && (
             <>
-              <a href='https://www.sugardaddypoland.com' className='hover:underline'>Sugar Daddy Poland</a>
-              <a href='https://www.sugardaddyuae.com' className='hover:underline'>Sugar Daddy UAE</a>
+              <a href='https://www.sugardaddypoland.com' target='_blank' className='hover:underline'>Sugar Daddy Poland</a>
+              <a href='https://www.sugardaddyuae.com' target='_blank' className='hover:underline'>Sugar Daddy UAE</a>
             </>
           )}
           <button onClick={toggleExpand} className='pt-2 text-left text-light-500 dark:text-gray-500'>
@@ -92,13 +92,13 @@ const Footer = ({ title }) => {
         
         {/* Column 4 */}
         <div className='flex flex-col text-left'>
-          <h4 className='font-bold'>DOWNLOAD APP</h4>
+          <h4 className='font-bold mb-4'>DOWNLOAD APP</h4>
           <div className='flex justify-start mt-2'>
             <a href='https://www.sugardaddymeet.com/registerStep1?tid=af100028782_qqx' target='_blank' rel='noopener noreferrer'>
-              <img src='https://raw.githubusercontent.com/icon-other/icon/main/download/App%20Store.png' alt='App Store' className='w-24 h-auto mx-2' />
+              <img src='https://raw.githubusercontent.com/icon-other/icon/main/download/App%20Store.png' alt=' Download By App Store' className='w-24 h-auto mx-2' />
             </a>
             <a href='https://www.sugardaddymeet.com/registerStep1?tid=af100028782_qqx' target='_blank' rel='noopener noreferrer'>
-              <img src='https://raw.githubusercontent.com/icon-other/icon/main/download/Google%20Play.png' alt='Google Play' className='w-24 h-auto mx-2' />
+              <img src='https://raw.githubusercontent.com/icon-other/icon/main/download/Google%20Play.png' alt=' Download By Google Play' className='w-24 h-auto mx-2' />
             </a>
           </div>
         </div>
