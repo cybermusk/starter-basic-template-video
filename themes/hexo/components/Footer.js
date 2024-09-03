@@ -22,7 +22,7 @@ const Footer = ({ title }) => {
             {siteConfig('AUTHOR')}
           </a>
         </h3>
-        <br />
+        .<br />
         {siteConfig('BEI_AN') && (
           <>
             <i className='fas fa-shield-alt' />{' '}
