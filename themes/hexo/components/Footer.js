@@ -51,7 +51,8 @@ const Footer = ({ title }) => {
           Disclaimer: You must be over 19 to join. SugarDaddyMeet-NZ is not an escort service. SugarDaddyMeet-NZ does not support escorts or prostitution. Profiles that may violate these terms and services will be banned.
         </p>
       </span>
-      <div className='flex justify-center space-x-20 text-xs pt-4 text-light-500 dark:text-gray-500'>
+      <div className='flex flex-col md:flex-row justify-center space-y-8 md:space-y-0 md:space-x-16 text-xs pt-4 text-light-500 dark:text-gray-500'>
+        {/* Column 1 */}
         <div className='flex flex-col text-left'>
           <h4 className='font-bold'>OUR COMPANY</h4>
           <a href='/company/about-us' className='hover:underline'>About Us</a>
@@ -59,6 +60,8 @@ const Footer = ({ title }) => {
           <a href='/support/faq' className='hover:underline'>Help and FAQ</a>
           <a href='/Become-an-Affiliate' className='hover:underline'>Become an Affiliate</a>
         </div>
+        
+        {/* Column 2 */}
         <div className='flex flex-col text-left'>
           <h4 className='font-bold'>SAFETY</h4>
           <a href='/safety/privacy-policy' className='hover:underline'>Privacy Policy</a>
@@ -68,6 +71,8 @@ const Footer = ({ title }) => {
           <a href='/safety/fighting-human-trafficking' className='hover:underline'>Stop Sex & Human Trafficking</a>
           <a href='/safety/no-sell-or-share' className='hover:underline'>Right to Opt-Out</a>
         </div>
+        
+        {/* Column 3 */}
         <div className='flex flex-col text-left'>
           <h4 className='font-bold'>OTHER DATING LOCATIONS</h4>
           <a href='https://www.sugardaddysingapore.com' className='hover:underline'>Sugar Daddy Singapore</a>
@@ -84,9 +89,11 @@ const Footer = ({ title }) => {
             {isExpanded ? '<<Less' : 'More>>'}
           </button>
         </div>
+        
+        {/* Column 4 */}
         <div className='flex flex-col text-left'>
           <h4 className='font-bold'>DOWNLOAD APP</h4>
-          <div className='flex justify-center mt-2'>
+          <div className='flex justify-start mt-2'>
             <a href='https://www.sugardaddymeet.com/registerStep1?tid=af100028782_qqx' target='_blank' rel='noopener noreferrer'>
               <img src='https://raw.githubusercontent.com/icon-other/icon/main/download/App%20Store.png' alt='App Store' className='w-24 h-auto mx-2' />
             </a>
