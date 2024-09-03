@@ -17,12 +17,12 @@ const Footer = ({ title }) => {
       <i className='fas fa-copyright' /> {`${copyrightDate}`}
       <span>
         <i className='mx-1 animate-pulse fas fa-heart' />{' '}
-        <h3 style="all: unset">
+        <h3>
           <a href={siteConfig('LINK')} className='font-bold dark:text-gray-300 hover:underline'>
             {siteConfig('AUTHOR')}
           </a>
         </h3>
-        .<br />
+        <br />
         {siteConfig('BEI_AN') && (
           <>
             <i className='fas fa-shield-alt' />{' '}
