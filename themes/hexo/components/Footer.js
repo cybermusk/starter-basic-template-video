@@ -1,4 +1,4 @@
-  import { useState } from 'react';
+import { useState } from 'react';
 import { siteConfig } from '@/lib/config';
 
 const Footer = ({ title }) => {
@@ -17,7 +17,7 @@ const Footer = ({ title }) => {
       <i className='fas fa-copyright' /> {`${copyrightDate}`}
       <span>
         <i className='mx-1 animate-pulse fas fa-heart' />{' '}
-        <h3 style={{all: 'unset'}}>
+        <h3 style={{ all: 'unset' }}>
           <a href={siteConfig('LINK')} className='font-bold dark:text-gray-300 hover:underline'>
             {siteConfig('AUTHOR')}
           </a>
@@ -97,8 +97,16 @@ const Footer = ({ title }) => {
           </button>
         </div>
         
-        {/* Column 4 */}        
-        <div className='flex flex-col text-left space-y-0.5'>   
+        {/* Column 4 */}
+        <div className='flex flex-col text-left space-y-0.5'>
+          <h4 className='font-bold mb-2'>OTHER DATING LOCATIONS</h4>
+          <a href='https://www.olderwoman-sugardaddy.com' target='_blank' className='hover:underline'>
+            Date Older Women
+          </a>
+        </div>
+
+        {/* Column 5 */}
+        <div className='flex flex-col text-left space-y-0.5'>
           <h4 className='font-bold mb-2'>DOWNLOAD APP</h4>
           <div className='flex justify-start space-x-2'>
             <a href='https://www.sugardaddymeet.com/registerStep1?tid=af100028782_qqx' target='_blank' rel='noopener noreferrer'>
