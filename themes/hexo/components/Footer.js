@@ -98,6 +98,16 @@ const Footer = ({ title }) => {
         </div>
         
         {/* Column 4 */}
+        <div className='flex flex-col text-left space-y-4'>
+          
+        {/* Friendly Links Section */}
+        <div className='flex flex-col text-left space-y-0.5'>
+          <h4 className='font-bold mb-2'>OTHER DATING LOCATIONS</h4>
+          <a href='https://www.olderwoman-sugardaddy.com' target='_blank' rel='noopener noreferrer' className='hover:underline'>
+            Date Older Women
+          </a>
+        </div>
+          
         <div className='flex flex-col text-left space-y-0.5'>
           <h4 className='font-bold mb-2'>DOWNLOAD APP</h4>
           <div className='flex justify-start space-x-2'>
