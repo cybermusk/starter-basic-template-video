@@ -74,18 +74,18 @@ const Hero = props => {
         <div className='mt-2 h-12 items-center text-center font-medium shadow-text text-lg welcome'>
           <span id='typed' />
         </div>
-
-       {/* 添加“Create Account”按钮 */}
-      <div className="flex flex-col items-center mt-4 space-y-4">
-        <a href="https://www.sugardaddymeet.com/registerStep1?tid=af100028782_bl6" className="create-account">
-          Create account
-        </a>
-      
-        {/* 添加“Login”按钮 */}
-        <a href="https://www.sugardaddymeet.com/login?tid=af100028782_bl6" className="log-in">
-          Log in
-        </a>
-      </div>
+  
+         {/* 添加“Create Account”按钮 */}
+        <div className="flex flex-col items-center mt-4 space-y-4">
+          <a href="https://www.sugardaddymeet.com/registerStep1?tid=af100028782_bl6" className="create-account">
+            Create account
+          </a>
+        
+          {/* 添加“Login”按钮 */}
+          <a href="https://www.sugardaddymeet.com/login?tid=af100028782_bl6" className="log-in">
+            Log in
+          </a>
+        </div>
 
         {/* 首页导航大按钮 */}
         {siteConfig('HEXO_HOME_NAV_BUTTONS', null, CONFIG) && (
