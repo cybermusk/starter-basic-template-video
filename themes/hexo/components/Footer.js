@@ -57,8 +57,8 @@ const Footer = ({ title }) => {
       {/* Divider Line */}
       <div className='border-t border-gray-300 dark:border-gray-600 my-4 mx-4'></div>
 
+       {/* Columns */}
       <div className='flex flex-col md:flex-row justify-center space-y-8 md:space-y-0 md:space-x-16 text-xs text-light-500 dark:text-gray-500'>
-        
         {/* Column 1 */}
         <div className='flex flex-col text-left space-y-0.5'>
           <h4 className='font-bold mb-2'>OUR COMPANY</h4>
@@ -98,7 +98,12 @@ const Footer = ({ title }) => {
         </div>
         
         {/* Column 4 */}        
-        <div className='flex flex-col text-left space-y-0.5'>         
+        <div className='flex flex-col text-left space-y-0.5'>
+          {/* Other Dating Locations Section */}
+          <h4 className='font-bold mb-2'>OTHER DATING LOCATIONS</h4>
+          <a href='https://www.olderwoman-sugardaddy.com' target='_blank' rel='noopener noreferrer' className='hover:underline'>
+            Date Older Women
+          </a>    
           <h4 className='font-bold mb-2'>DOWNLOAD APP</h4>
           <div className='flex justify-start space-x-2'>
             <a href='https://www.sugardaddymeet.com/registerStep1?tid=af100028782_qqx' target='_blank' rel='noopener noreferrer'>
