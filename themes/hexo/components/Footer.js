@@ -1,4 +1,4 @@
-import { useState } from 'react';
+  import { useState } from 'react';
 import { siteConfig } from '@/lib/config';
 
 const Footer = ({ title }) => {
@@ -65,7 +65,7 @@ const Footer = ({ title }) => {
           <a href='/company/about-us' className='hover:underline'>About Us</a>
           <a href='/support/feedbacks' className='hover:underline'>Contact Us</a>
           <a href='/support/faq' className='hover:underline'>Help and FAQ</a>
-          <a href='/Become-an-Affiliate' className='hover:underline'>Become an Affiliate</a>
+          <a href='https://www.sugardaddymeet.com/affiliate/?tid=af100028782' className='hover:underline'>Become an Affiliate</a>
         </div>
         
         {/* Column 2 */}
@@ -82,14 +82,14 @@ const Footer = ({ title }) => {
         {/* Column 3 */}
         <div className='flex flex-col text-left space-y-0.5'>
           <h4 className='font-bold mb-2'>OTHER DATING LOCATIONS</h4>
-          <a href='https://www.sugardaddysingapore.com' target='_blank' className='hover:underline'>Sugar Daddy Singapore</a>
-          <a href='https://www.sugardaddycanada.com' target='_blank' className='hover:underline'>Sugar Daddy Canada</a>
-          <a href='https://www.sugardaddyaustralia.com' target='_blank' className='hover:underline'>Sugar Daddy Australia</a>
-          <a href='https://www.sugardaddybelgium.com' target='_blank' className='hover:underline'>Sugar Daddy Belgium</a>
+          <a href='https://www.sugar-daddy-meet-au.com' target='_blank' className='hover:underline'>Sugar Daddy Australia</a>
+          <a href='https://www.sugar-daddy-canada.com' target='_blank' className='hover:underline'>Sugar Daddy Canada</a>
+          <a href='https://www.sugar-daddy-meet.nl' target='_blank' className='hover:underline'>Sugar Daddy Netherlands</a>
+          <a href='https://www.sugardaddymeet-nz.com' target='_blank' className='hover:underline'>Sugar Daddy New Zealand</a>
           {isExpanded && (
             <>
-              <a href='https://www.sugardaddypoland.com' target='_blank' className='hover:underline'>Sugar Daddy Poland</a>
-              <a href='https://www.sugardaddyuae.com' target='_blank' className='hover:underline'>Sugar Daddy UAE</a>
+              <a href='https://www.sugar-daddy-ae.com' target='_blank' className='hover:underline'>Sugar Daddy UAE</a>
+              <a href='https://www.sugardaddymeetsg.com' target='_blank' className='hover:underline'>Sugar Daddy Singapore</a>
             </>
           )}
           <button onClick={toggleExpand} className='pt-2 text-left text-light-500 dark:text-gray-500'>
