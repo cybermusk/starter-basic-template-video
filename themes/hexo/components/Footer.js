@@ -17,11 +17,11 @@ const Footer = ({ title }) => {
       <i className='fas fa-copyright' /> {`${copyrightDate}`}
       <span>
         <i className='mx-1 animate-pulse fas fa-heart' />{' '}
-        <h3 style={{ all: 'unset' }}>
+        <h2 style={{ all: 'unset' }}>
           <a href={siteConfig('LINK')} className='font-bold dark:text-gray-300 hover:underline'>
             {siteConfig('AUTHOR')}
           </a>
-        </h3>
+        </h2>
         <br />
         {siteConfig('BEI_AN') && (
           <>
@@ -61,7 +61,7 @@ const Footer = ({ title }) => {
       <div className='flex flex-col md:flex-row justify-center space-y-8 md:space-y-0 md:space-x-16 text-xs text-light-500 dark:text-gray-500'>
         {/* Column 1 */}
         <div className='flex flex-col text-left space-y-0.5'>
-          <h4 className='font-bold mb-2'>OUR COMPANY</h4>
+          <h3 className='font-bold mb-2'>OUR COMPANY</h3>
           <a href='/company/about-us' className='hover:underline'>About Us</a>
           <a href='/support/feedbacks' className='hover:underline'>Contact Us</a>
           <a href='/support/faq' className='hover:underline'>Help and FAQ</a>
@@ -70,7 +70,7 @@ const Footer = ({ title }) => {
         
         {/* Column 2 */}
         <div className='flex flex-col text-left space-y-0.5'>
-          <h4 className='font-bold mb-2'>SAFETY</h4>
+          <h3 className='font-bold mb-2'>SAFETY</h3>
           <a href='/safety/privacy-policy' className='hover:underline'>Privacy Policy</a>
           <a href='/safety/service-agreement' className='hover:underline'>Service Agreement</a>
           <a href='/safety/notice-of-collection' className='hover:underline'>Notice of Collection</a>
@@ -81,7 +81,7 @@ const Footer = ({ title }) => {
         
         {/* Column 3 */}
         <div className='flex flex-col text-left space-y-0.5'>
-          <h4 className='font-bold mb-2'>OTHER DATING LOCATIONS</h4>
+          <h3 className='font-bold mb-2'>OTHER DATING LOCATIONS</h3>
           <a href='https://www.sugar-daddy-meet-au.com' target='_blank' className='hover:underline'>Sugar Daddy Australia</a>
           <a href='https://www.sugar-daddy-canada.com' target='_blank' className='hover:underline'>Sugar Daddy Canada</a>
           <a href='https://www.sugar-daddy-meet.nl' target='_blank' className='hover:underline'>Sugar Daddy Netherlands</a>
@@ -99,7 +99,7 @@ const Footer = ({ title }) => {
         
         {/* Column 4 */}
         <div className='flex flex-col text-left space-y-0.5'>
-          <h4 className='font-bold mb-2'>FRIENDLY LINKS</h4>
+          <h3 className='font-bold mb-2'>FRIENDLY LINKS</h3>
           <a href='https://www.olderwoman-sugardaddy.com' target='_blank' className='hover:underline'>
             Date Older Women
           </a>
@@ -107,7 +107,7 @@ const Footer = ({ title }) => {
 
         {/* Column 5 */}
         <div className='flex flex-col text-left space-y-0.5'>
-          <h4 className='font-bold mb-2'>DOWNLOAD APP</h4>
+          <h3 className='font-bold mb-2'>DOWNLOAD APP</h3>
           <div className='flex justify-start space-x-2'>
             <a href='https://www.sugardaddymeet.com/registerStep1?tid=af100028782_qqxx' target='_blank' rel='noopener noreferrer'>
               <img src='https://raw.githubusercontent.com/icon-other/icon/main/download/App%20Store.png' alt='Download By App Store' className='w-24 h-auto' />
