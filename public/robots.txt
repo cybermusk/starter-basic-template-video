@@ -6,5 +6,6 @@ Disallow: /https:
 Disallow: /undefined
 Disallow: /tag
 Disallow: /cdn-cgi
+Disallow: /archive
 
 Sitemap: https://www.sugardaddymeet-nz.com/sitemap.xml
