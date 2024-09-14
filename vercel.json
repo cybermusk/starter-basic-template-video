@@ -1,5 +1,12 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
-  "headers": []
+  "headers": [],
+  "redirects": [
+    {
+      "source": "/undefined",
+      "destination": "/404",
+      "permanent": true
+    }
+  ]
 }
