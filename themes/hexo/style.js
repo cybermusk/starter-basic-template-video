@@ -56,6 +56,16 @@ const Style = () => {
       cursor: pointer;
       transition: border 0.3s ease;
     }
+
+    //控制“More >>”按钮显示逻辑
+    .hidden {
+      display: none;
+    }
+    
+    .visible {
+      display: block;
+    }
+
 /* ---到此结束--- */
   
     /*  菜单下划线动画 */
