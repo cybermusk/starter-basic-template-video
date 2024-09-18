@@ -87,7 +87,7 @@ const Footer = ({ title }) => {
           <a href='https://www.sugar-daddy-meet-au.com' target='_blank' className='hover:underline'>Sugar Daddy Australia</a>
           <a href='https://www.sugar-daddy-meet.nl' target='_blank' className='hover:underline'>Sugar Daddy Netherlands</a>
           <a href='https://www.sugardaddymeet-nz.com' target='_blank' className='hover:underline'>Sugar Daddy New Zealand</a>
-          <div className={`extra-links flex flex-col ${isExpanded ? 'visible' : 'hidden'}`}>
+          <div className={`extra-links ${isExpanded ? 'max-h-none' : 'max-h-0 overflow-hidden'}`}>
             <a href='https://www.sugar-daddy-ae.com' target='_blank' className='hover:underline'>Sugar Daddy UAE</a>
             <a href='https://www.sugardaddymeetsg.com' target='_blank' className='hover:underline'>Sugar Daddy Singapore</a>
           </div>
