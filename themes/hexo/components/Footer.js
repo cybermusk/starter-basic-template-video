@@ -82,8 +82,8 @@ const Footer = ({ title }) => {
         {/* Column 3 */}
         <div className='flex flex-col text-left space-y-0.5'>
           <h3 className='font-bold mb-2'>OTHER DATING LOCATIONS</h3>
+          <a href='https://www.sugardaddymeet.website' target='_blank' className='hover:underline'>Sugar Daddy USA</a>
           <a href='https://www.sugar-daddy-meet-au.com' target='_blank' className='hover:underline'>Sugar Daddy Australia</a>
-          <a href='https://www.sugar-daddy-canada.com' target='_blank' className='hover:underline'>Sugar Daddy Canada</a>
           <a href='https://www.sugar-daddy-meet.nl' target='_blank' className='hover:underline'>Sugar Daddy Netherlands</a>
           <a href='https://www.sugardaddymeet-nz.com' target='_blank' className='hover:underline'>Sugar Daddy New Zealand</a>
           <div className={`extra-links ${isExpanded ? 'visible' : 'hidden'}`}>
