@@ -58,11 +58,11 @@ const Style = () => {
     }
 
     //控制“More >>”按钮显示逻辑
-    .hidden {
+    .hide {
       display: none;
     }
     
-    .visible {
+    .show {
       display: block;
     }
 /* ---到此结束--- */
