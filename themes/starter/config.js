@@ -13,20 +13,20 @@ const CONFIG = {
   STARTER_HERO_TITLE_1: '开源且免费的基于 Notion 笔记的网站构建工具', // 英雄区文字
   STARTER_HERO_TITLE_2: '通过笔记无感知地建站、成倍放大您的价值', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
-  STARTER_HERO_BUTTON_1_TEXT: 'Join Free', // 英雄区按钮
+  STARTER_HERO_BUTTON_1_TEXT: 'Join Free Now!', // 英雄区按钮
   STARTER_HERO_BUTTON_1_URL:
-    'https://www.sugardaddymeet.com/registerStep1?tid=af100028782_bl6', // 英雄区按钮
+    '/signup', // 英雄区按钮
   STARTER_HERO_BUTTON_2_TEXT: 'Log In', // 英雄区按钮
-  STARTER_HERO_BUTTON_2_URL: 'https://www.sugardaddymeet.com/login?tid=af100028782_bl6', // 英雄区按钮
+  STARTER_HERO_BUTTON_2_URL: '/signin', // 英雄区按钮
   STARTER_HERO_BUTTON_2_ICON: '', // 英雄区按钮2的图标，不需要则留空
 
   STARTER_HERO_PREVIEW_IMAGE: '', // 产品预览图 ，默认读取public目录下图片 images/starter/hero/hero-image.webp
 
   // 顶部右侧导航暗流
-  STARTER_NAV_BUTTON_1_TEXT: 'Sign In',
+  STARTER_NAV_BUTTON_1_TEXT: 'SIGN IN',
   STARTER_NAV_BUTTON_1_URL: '/signin',
 
-  STARTER_NAV_BUTTON_2_TEXT: 'Sign Up',
+  STARTER_NAV_BUTTON_2_TEXT: 'SIGN UP',
   STARTER_NAV_BUTTON_2_URL: '/signup',
 
   // 特性区块
