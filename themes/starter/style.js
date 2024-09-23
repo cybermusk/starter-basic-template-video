@@ -98,11 +98,12 @@ const Style = () => {
   
   #theme-starter .sticky .signUpBtn{
     --tw-bg-opacity: 1;
-    background-color: rgb(55 88 249 / var(--tw-bg-opacity));
+    background-color: rgb(255 15 15 / var(--tw-bg-opacity));
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
   }
-  
+
+  /* 原色55 88 249 */
   #theme-starter .sticky .signUpBtn:hover{
     --tw-bg-opacity: 1;
     background-color: rgb(27 68 200 / var(--tw-bg-opacity));
