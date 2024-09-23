@@ -37,7 +37,7 @@ export const NavBar = (props) => {
       const ud_header = document.querySelector('.ud-header');
       const scrollY = window.scrollY;
       // 控制台输出当前滚动位置和 sticky 值
-      if (scrollY > 0) {
+      if (scrollY >= 0) {
         ud_header?.classList?.add('sticky');
       } else {
         ud_header?.classList?.remove('sticky');
