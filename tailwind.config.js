@@ -62,6 +62,9 @@ module.exports = {
         'gray-2': '#F3F4F6',
         'gray-7': '#CED4DA'
       },
+      backgroundImage: {
+        'custom-img': "url('/images/starter/custom-images/sugarbaby.jpg')" // 自定义背景图片类
+      },
       maxWidth: {
         side: '14rem',
         '9/10': '90%'
