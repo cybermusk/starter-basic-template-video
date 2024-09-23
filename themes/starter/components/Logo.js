@@ -27,7 +27,7 @@ export const Logo = ({ white }) => {
       const homePageNavBar = router.route === '/' && scrollY < 10 // 在首页并且视窗在页面顶部
       if (white || isDarkMode || homePageNavBar) {
         setLogo(siteConfig('STARTER_LOGO_WHITE', null, CONFIG))
-        setLogoTextColor('text-black')
+        setLogoTextColor('text-black') // 当前用的是这个，是由text-white换过来的
       } else {
         setLogo(siteConfig('STARTER_LOGO', null, CONFIG))
         setLogoTextColor('text-black')
