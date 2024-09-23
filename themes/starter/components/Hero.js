@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+  /* eslint-disable @next/next/no-img-element */
 import { siteConfig } from '@/lib/config'
 import CONFIG from '../config'
 /**
@@ -9,7 +9,7 @@ export const Hero = () => {
      {/* <!-- ====== Hero Section Start --> */}
      <div
       id="home"
-      className="relative overflow-hidden bg-custom-img pt-[120px] md:pt-[130px] lg:pt-[160px] lg:w-full lg:h-screen"
+      className="relative overflow-hidden bg-custom-img pt-[120px] md:pt-[130px] lg:pt-[160px] w-full h-screen"
     >
       <div className="container">
         <div className="-mx-4 flex flex-wrap items-center">
