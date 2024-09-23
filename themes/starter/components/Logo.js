@@ -60,7 +60,7 @@ export const Logo = ({ white }) => {
           onClick={() => {
             router.push('/')
           }}
-          className={`${logoTextColor} dark:text-white py-1.5 header-logo-text whitespace-nowrap text-2xl font-semibold`}>
+          className={`text-black dark:text-white py-1.5 header-logo-text whitespace-nowrap text-2xl font-semibold`}> // ${logoTextColor}
           {siteConfig('TITLE')}
         </span>
       </div>
