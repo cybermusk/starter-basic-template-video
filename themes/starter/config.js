@@ -10,8 +10,8 @@ const CONFIG = {
 
   // 英雄区块导航
   STARTER_HERO_ENABLE: true, // 开启英雄区
-  STARTER_HERO_TITLE_1: '开源且免费的基于 Notion 笔记的网站构建工具', // 英雄区文字
-  STARTER_HERO_TITLE_2: '通过笔记无感知地建站、成倍放大您的价值', // 英雄区文字
+  STARTER_HERO_TITLE_1: 'Sugar Daddy Mexico', // 英雄区文字
+  STARTER_HERO_TITLE_2: 'The best sugar daddy dating site for seeking secret arrangements in Mexico. Join to meet local wealthy men and attractive women in your area! We have over 5 million users', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   STARTER_HERO_BUTTON_1_TEXT: 'SEE YOUR MATCHES', // 英雄区按钮
   STARTER_HERO_BUTTON_1_URL:
