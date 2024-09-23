@@ -59,9 +59,9 @@ const CONFIG = {
 
   // 首页ABOUT区块
   STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
-  STARTER_ABOUT_TITLE: '一套轻量实用的建站解决方案',
+  STARTER_ABOUT_TITLE: 'Seeking Sugar Daddy & Sugar Baby for Arrangement Dating in Mexico',
   STARTER_ABOUT_TEXT:
-    'NotionNext的愿景是帮助非技术人员的小白，最低成本、最快速地搭建自己的网站，帮助您将自己的产品与故事高效地传达给世界。 <br /> <br /> 功能强大的Notion笔记，简单快速的Vercel托管平台，组成一个简单的网站',
+    'Welcome to SugarDaddyMexico.com.mx, the best sugar daddy dating site in Mexico! Just in case you don’t know it yet, Mexico is the country with the most number of sugar daddies at approximately 180,000. Now, that’s a lot! These hundreds of thousands of sugar daddies are all out to look for the perfect sugar baby that can become their companion and bring their wildest and biggest fantasies to life. <br /> <br /> Similarly, there are also large populations of sugar babies who are searching for a man who can provide their needs. Sugar babies are dynamic and young and Mexican sugar babies in particular are well known far and wide for their beauty. But, more than their physical appearance, these ladies are also perfectly compatible with successful and mature men because of their open-mindedness and easy-going nature. If you also want to experience what it is like to date a Mexican sugar daddy, read on below to know more about what you can expect here at SugarDaddyMexico.com.mx.',
   STARTER_ABOUT_BUTTON_TEXT: 'Join Now',
   STARTER_ABOUT_BUTTON_URL: '/signup',
   STARTER_ABOUT_IMAGE_1: '/images/starter/about/about-image-01.jpg', // /images/starter/about/about-image-01.jpg
