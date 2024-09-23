@@ -18,7 +18,7 @@ const CONFIG = {
     '/signup', // 英雄区按钮
   STARTER_HERO_BUTTON_2_TEXT: 'Log In', // 英雄区按钮
   STARTER_HERO_BUTTON_2_URL: '/signin', // 英雄区按钮
-  STARTER_HERO_BUTTON_2_ICON: '', // 英雄区按钮2的图标，不需要则留空
+  STARTER_HERO_BUTTON_2_ICON: '', // 英雄区按钮2的前置图标，不需要则留空
 
   STARTER_HERO_PREVIEW_IMAGE: '', // 产品预览图 ，默认读取public目录下图片 images/starter/hero/hero-image.webp
 
@@ -64,8 +64,8 @@ const CONFIG = {
     'NotionNext的愿景是帮助非技术人员的小白，最低成本、最快速地搭建自己的网站，帮助您将自己的产品与故事高效地传达给世界。 <br /> <br /> 功能强大的Notion笔记，简单快速的Vercel托管平台，组成一个简单的网站',
   STARTER_ABOUT_BUTTON_TEXT: 'Join Now',
   STARTER_ABOUT_BUTTON_URL: '/signup',
-  STARTER_ABOUT_IMAGE_1: '', // /images/starter/about/about-image-01.jpg
-  STARTER_ABOUT_IMAGE_2: '', // /images/starter/about/about-image-02.jpg
+  STARTER_ABOUT_IMAGE_1: '/images/starter/about/about-image-01.jpg', // /images/starter/about/about-image-01.jpg
+  STARTER_ABOUT_IMAGE_2: '/images/starter/about/about-image-02.jpg', // /images/starter/about/about-image-02.jpg
   STARTER_ABOUT_TIPS_1: '7000+',
   STARTER_ABOUT_TIPS_2: '博客站点',
   STARTER_ABOUT_TIPS_3: '正在线上运行',
