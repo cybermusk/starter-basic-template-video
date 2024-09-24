@@ -53,9 +53,9 @@ export const Team = () => {
 
                     {/* 文字介绍 */}
                     <div className='text-center'>
-                      <h4 className='mb-1 text-lg font-semibold text-dark dark:text-white'>
+                      <p className='mb-1 text-lg font-semibold text-dark dark:text-white'>
                         {item.STARTER_TEAM_ITEM_NICKNAME}
-                      </h4>
+                      </p>
 
                       <p className='mb-5 text-sm text-body-color dark:text-dark-6'>
                         {item.STARTER_TEAM_ITEM_DESCRIPTION}
