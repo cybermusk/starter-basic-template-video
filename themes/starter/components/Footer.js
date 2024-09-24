@@ -24,7 +24,7 @@ export const Footer = props => {
             <div className='w-full px-4 sm:w-1/2 md:w-1/2 lg:w-4/12 xl:w-3/12'>
               <div className='mb-10 w-full'>
                 <a className='-mx-4 mb-6 inline-block max-w-[160px]'>
-                  <Logo balck={true} />
+                  <Logo white={false} />
                 </a>
                 <p className='mb-8 max-w-[270px] text-base text-gray-7'>
                   {siteConfig('STARTER_FOOTER_SLOGAN', null, CONFIG)}
