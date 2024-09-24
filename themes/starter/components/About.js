@@ -74,7 +74,7 @@ export const About = () => {
                       <span className="block text-4xl md:text-3xl font-extrabold text-blake">
                         {siteConfig('STARTER_ABOUT_TIPS_1', null, CONFIG)}
                       </span>
-                      <span className="block text-2xl md:text-1xl font-bold text-blake">
+                      <span className="block text-2xl md:text-base font-bold text-blake">
                         {siteConfig('STARTER_ABOUT_TIPS_2', null, CONFIG)}
                       </span>
                       <span
