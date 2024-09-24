@@ -78,7 +78,7 @@ export const About = () => {
                         {siteConfig('STARTER_ABOUT_TIPS_2', null, CONFIG)}
                       </span>
                       <span
-                        className="block text-1xl font-semibold text-blake"
+                        className="block text-base font-semibold text-blake"
                       >
                         {siteConfig('STARTER_ABOUT_TIPS_3', null, CONFIG)}
                       </span>
