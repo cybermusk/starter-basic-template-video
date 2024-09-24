@@ -15,7 +15,7 @@ export const Footer = props => {
   return (
     <>
       {/* <!-- ====== Footer Section Start --> */}
-      {/* <Logo white={true} /> */}
+      {/* 27行源代码：<Logo white={true} /> */}
       <footer
         className='wow fadeInUp relative z-10 bg-[#090E34] pt-20 lg:pt-[100px]'
         data-wow-delay='.15s'>
