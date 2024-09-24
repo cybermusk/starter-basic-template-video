@@ -45,9 +45,9 @@ export const Footer = props => {
                   key={index}
                   className='w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12'>
                   <div className='mb-10 w-full'>
-                    <h4 className='mb-9 text-lg font-semibold text-white'>
+                    <h2 className='mb-9 text-lg font-semibold text-white'>
                       {item.TITLE}
-                    </h4>
+                    </h2>
                     <ul>
                       {item?.LINK_GROUP?.map((l, i) => {
                         return (
