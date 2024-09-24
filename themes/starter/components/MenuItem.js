@@ -46,7 +46,7 @@ export const MenuItem = ({ link }) => {
                   key={index}
                   href={sLink.href}
                   target={link?.target}
-                  className='block rounded px-4 py-[10px] text-sm text-body-color hover:text-primary dark:text-dark-6 dark:hover:text-primary'>
+                  className='block rounded px-4 py-[10px] text-sm text-body-color hover:text-[#cda780] dark:text-dark-6 dark:hover:text-[#cda780]'>
                   {/* 子菜单SubMenuItem */}
                   <span className='text-sm ml-4 whitespace-nowrap'>
                     {link?.icon && (
