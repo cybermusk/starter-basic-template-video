@@ -16,7 +16,7 @@ const CONFIG = {
   STARTER_HERO_BUTTON_1_TEXT: 'SEE YOUR MATCHES', // 英雄区按钮
   STARTER_HERO_BUTTON_1_URL:
     '/signup', // 英雄区按钮
-  STARTER_HERO_BUTTON_2_TEXT: 'Log In', // 英雄区按钮
+  STARTER_HERO_BUTTON_2_TEXT: 'LOG IN', // 英雄区按钮
   STARTER_HERO_BUTTON_2_URL: '/signin', // 英雄区按钮
   STARTER_HERO_BUTTON_2_ICON: '', // 英雄区按钮2的前置图标，不需要则留空
 
