@@ -7,12 +7,12 @@ export const MenuItem = ({ link }) => {
   return (
     <>
       {/* MenuItem */}
+    {/* 第16行源代码：className={`ud-menu-scroll mx-8 flex py-2 text-base font-medium text-dark group-hover:text-primary dark:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 ${router.route === '/' ? 'lg:text-white lg:group-hover:text-white' : ''} lg:group-hover:opacity-70`}> */}
       {!hasSubMenu && (
         <li className='group relative whitespace-nowrap'>
           <Link
             href={link?.href}
             target={link?.target}
-          {/* className={`ud-menu-scroll mx-8 flex py-2 text-base font-medium text-dark group-hover:text-primary dark:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 ${router.route === '/' ? 'lg:text-white lg:group-hover:text-white' : ''} lg:group-hover:opacity-70`}> */}
             className={`ud-menu-scroll mx-8 flex py-2 text-base font-medium text-dark group-hover:text-[#cda780] dark:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 ${router.route === '/' ? 'lg:text-white lg:group-hover:text-white' : ''}`}>
             {link?.icon && <i className={link.icon + ' mr-2 my-auto'} />}
             {link?.name}
