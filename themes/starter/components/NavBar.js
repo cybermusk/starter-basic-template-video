@@ -70,7 +70,7 @@ export const NavBar = (props) => {
                           {/* className={`loginBtn ${buttonTextColor}  px-[22px] py-2 text-base font-medium hover:opacity-70`} */}
                             <a
                             href={siteConfig('STARTER_NAV_BUTTON_1_URL', null, CONFIG)}
-                            className={`loginBtn ${buttonTextColor}  px-[22px] py-2 text-base font-medium hover:text-[#cda780]
+                            className={`loginBtn ${buttonTextColor}  px-[22px] py-2 text-base font-medium hover:text-[#cda780]`}
 `}
                             >
                            {siteConfig('STARTER_NAV_BUTTON_1_TEXT', null, CONFIG)}
@@ -78,7 +78,7 @@ export const NavBar = (props) => {
                           {/* className={`signUpBtn ${buttonTextColor} rounded-md bg-white bg-opacity-20 px-6 py-2 text-base font-medium duration-300 ease-in-out hover:bg-opacity-100 hover:text-dark`} */}
                             <a
                             href={siteConfig('STARTER_NAV_BUTTON_2_URL', null, CONFIG)}
-                            className={`signUpBtn ${buttonTextColor} rounded-md bg-white bg-opacity-20 px-6 py-2 text-base font-medium duration-300 ease-in-out hover:bg-[#cda780]
+                            className={`signUpBtn ${buttonTextColor} rounded-md bg-white bg-opacity-20 px-6 py-2 text-base font-medium duration-300 ease-in-out hover:bg-[#cda780]`}
 `}
                             >
                            {siteConfig('STARTER_NAV_BUTTON_2_TEXT', null, CONFIG)}
