@@ -124,6 +124,7 @@ export const FAQ = () => {
       </div>
 
     {/* 背景图案 */}
+    {/*
       <div>
         <span className="absolute left-4 top-4 -z-[1]">
           <SVGCircleBG/>
@@ -132,6 +133,7 @@ export const FAQ = () => {
             <SVGCircleBG/>
         </span>
       </div>
+    */}
     </section>
     {/* <!-- ====== FAQ Section End --> */}
     </>
