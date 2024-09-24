@@ -66,9 +66,9 @@ const CONFIG = {
   STARTER_ABOUT_BUTTON_URL: '/signup',
   STARTER_ABOUT_IMAGE_1: '/images/starter/about/about-image-01.jpg', // /images/starter/about/about-image-01.jpg
   STARTER_ABOUT_IMAGE_2: '/images/starter/about/about-image-02.jpg', // /images/starter/about/about-image-02.jpg
-  STARTER_ABOUT_TIPS_1: '7000+',
-  STARTER_ABOUT_TIPS_2: '博客站点',
-  STARTER_ABOUT_TIPS_3: '正在线上运行',
+  STARTER_ABOUT_TIPS_1: '8.3 MILLION+',
+  STARTER_ABOUT_TIPS_2: 'VERIFIED MEMBERS',
+  STARTER_ABOUT_TIPS_3: 'QUALITY CONNECTIONS',
 
   // 首页价格区块
   STARTER_PRICING_ENABLE: false, // 价格区块开关
