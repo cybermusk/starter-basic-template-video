@@ -11,7 +11,8 @@ export const About = () => {
        {/* <!-- ====== About Section Start --> */}
        <section
       id="about"
-      className="bg-gray-1 pb-8 pt-20 dark:bg-dark-2 lg:pb-[70px] lg:pt-[120px]"
+      {/* bg-gray-1 pb-8 pt-20 dark:bg-dark-2 lg:pb-[70px] lg:pt-[120px] */}
+      className="bg-gray-1 pt-20 dark:bg-dark-2 lg:pb-[70px]"
     >
       <div className="container">
         <div className="wow fadeInUp" data-wow-delay=".2s">
