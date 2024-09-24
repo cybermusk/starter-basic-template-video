@@ -143,7 +143,7 @@ export const Testimonials = () => {
 
               {/* 切换按钮  */}
               {/* <div className='mt-[60px] flex items-center justify-center gap-1'> */}
-              <div className='mt-[30px] mb-[30px] flex items-center justify-center gap-1'>
+              <div className='mt-[60px] sm:mb-[30px] sm:mt-[20px] flex items-center justify-center gap-3'>
                 <div className='swiper-button-prev'>
                   <SVGLeftArrow />
                 </div>
