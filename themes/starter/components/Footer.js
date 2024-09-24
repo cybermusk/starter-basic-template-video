@@ -52,13 +52,13 @@ export const Footer = props => {
                       {item?.LINK_GROUP?.map((l, i) => {
                         return (
                           <li key={i}>
-                            <p3>
+                            <h3>
                               <a
                                 href={l.URL}
                                 className='mb-3 inline-block text-base text-gray-7 hover:text-primary'>
                                 {l.TITLE}
                               </a>
-                             </p3>
+                             </h3>
                           </li>
                         )
                       })}
