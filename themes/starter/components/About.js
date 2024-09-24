@@ -9,10 +9,10 @@ import CONFIG from '../config'
 export const About = () => {
   return <>
        {/* <!-- ====== About Section Start --> */}
+      {/* bg-gray-1 pb-8 pt-20 dark:bg-dark-2 lg:pb-[70px] lg:pt-[120px] */}
        <section
       id="about"
-      {/* bg-gray-1 pb-8 pt-20 dark:bg-dark-2 lg:pb-[70px] lg:pt-[120px] */}
-      className="bg-gray-1 pt-20 dark:bg-dark-2 lg:pb-[70px]"
+      className="bg-gray-1 pt-20 dark:bg-dark-2 lg:pt-[120px] "
     >
       <div className="container">
         <div className="wow fadeInUp" data-wow-delay=".2s">
