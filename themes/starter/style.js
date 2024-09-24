@@ -93,7 +93,7 @@ const Style = () => {
   
   :is(.dark #theme-starter .sticky .loginBtn:hover){
     --tw-text-opacity: 1;
-    color: rgb(55 88 249 / var(--tw-text-opacity));
+    color: rgb(205 167 128 / var(--tw-text-opacity));
   }
   
   #theme-starter .sticky .signUpBtn{
