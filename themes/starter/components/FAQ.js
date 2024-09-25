@@ -45,14 +45,16 @@ export const FAQ = () => {
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4 lg:w-1/2">
             <div className="mb-12 flex lg:mb-[70px]">
+            {/*
               <div
                 className="mr-4 flex h-[50px] w-full max-w-[50px] items-center justify-center rounded-xl bg-[#cda780] text-white sm:mr-6 sm:h-[60px] sm:max-w-[60px]"
               >
                 <SVGQuestion/>
               </div>
+            */}
               <div className="w-full">
                 <h3
-                  className="mb-6 text-xl font-semibold text-dark dark:text-white sm:text-2xl lg:text-xl xl:text-2xl"
+                  className="mb-6 text-xl font-semibold text-dark dark:text-white sm:text-2xl lg:text-xl xl:text-2xl text-center"
                 >
                  {siteConfig('STARTER_FAQ_1_QUESTION', null, CONFIG)}
                 </h3>
@@ -63,14 +65,16 @@ export const FAQ = () => {
               </div>
             </div>
             <div className="mb-12 flex lg:mb-[70px]">
+            {/*
               <div
                 className="mr-4 flex h-[50px] w-full max-w-[50px] items-center justify-center rounded-xl bg-[#cda780] text-white sm:mr-6 sm:h-[60px] sm:max-w-[60px]"
               >
                 <SVGQuestion/>
               </div>
+            */}
               <div className="w-full">
               <h3
-                  className="mb-6 text-xl font-semibold text-dark dark:text-white sm:text-2xl lg:text-xl xl:text-2xl"
+                  className="mb-6 text-xl font-semibold text-dark dark:text-white sm:text-2xl lg:text-xl xl:text-2xl text-center"
                 >
                  {siteConfig('STARTER_FAQ_2_QUESTION', null, CONFIG)}
                 </h3>
@@ -84,14 +88,16 @@ export const FAQ = () => {
 
           <div className="w-full px-4 lg:w-1/2">
             <div className="mb-12 flex lg:mb-[70px]">
+            {/*
               <div
                 className="mr-4 flex h-[50px] w-full max-w-[50px] items-center justify-center rounded-xl bg-[#cda780] text-white sm:mr-6 sm:h-[60px] sm:max-w-[60px]"
               >
                 <SVGQuestion/>
               </div>
+            */}
               <div className="w-full">
               <h3
-                  className="mb-6 text-xl font-semibold text-dark dark:text-white sm:text-2xl lg:text-xl xl:text-2xl"
+                  className="mb-6 text-xl font-semibold text-dark dark:text-white sm:text-2xl lg:text-xl xl:text-2xl text-center"
                 >
                  {siteConfig('STARTER_FAQ_3_QUESTION', null, CONFIG)}
                 </h3>
@@ -102,14 +108,16 @@ export const FAQ = () => {
               </div>
             </div>
             <div className="mb-12 flex lg:mb-[70px]">
+            {/*
               <div
                 className="mr-4 flex h-[50px] w-full max-w-[50px] items-center justify-center rounded-xl bg-[#cda780] text-white sm:mr-6 sm:h-[60px] sm:max-w-[60px]"
               >
                 <SVGQuestion/>
               </div>
+            */}
               <div className="w-full">
               <h3
-                  className="mb-6 text-xl font-semibold text-dark dark:text-white sm:text-2xl lg:text-xl xl:text-2xl"
+                  className="mb-6 text-xl font-semibold text-dark dark:text-white sm:text-2xl lg:text-xl xl:text-2xl text-center"
                 >
                  {siteConfig('STARTER_FAQ_4_QUESTION', null, CONFIG)}
                 </h3>
