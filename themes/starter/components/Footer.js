@@ -19,7 +19,7 @@ export const Footer = props => {
       {/* 28行源代码：<a className='-mx-4 mb-6 inline-block max-w-[160px]'> */}
       {/* className='wow fadeInUp relative z-10 bg-[#090E34] pt-20 lg:pt-[100px]' */}
       <footer
-        className='wow fadeInUp relative z-10 bg-[#292929] pt-20 lg:pt-[100px]'
+        className='wow fadeInUp relative z-10 bg-[#000000] pt-20 lg:pt-[100px]'
         data-wow-delay='.15s'>
         <div className='container'>
           <div className='-mx-4 flex flex-wrap'>
