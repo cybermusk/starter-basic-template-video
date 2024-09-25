@@ -78,12 +78,12 @@ export const Footer = props => {
                 </h2>
                 <ul>
                   <li className='mb-3'>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
+                    <a href="/download" target="_blank" rel="noopener noreferrer nofollow">
                       <img src="https://raw.githubusercontent.com/icon-other/icon/main/download/App%20Store.png" alt="App Store" className='w-32 h-auto' />
                     </a>
                   </li>
                   <li>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
+                    <a href="/download" target="_blank" rel="noopener noreferrer nofollow">
                       <img src="https://raw.githubusercontent.com/icon-other/icon/main/download/Google%20Play.png" alt="Google Play" className='w-32 h-auto' />
                     </a>
                   </li>
