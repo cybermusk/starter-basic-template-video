@@ -207,23 +207,35 @@ const CONFIG = {
     {
       STARTER_TEAM_ITEM_AVATAR:
         '/images/starter/team/team-01.png',
-      STARTER_TEAM_ITEM_NICKNAME: 'Tangly',
-      STARTER_TEAM_ITEM_DESCRIPTION: 'Developer'
+      STARTER_TEAM_ITEM_NAME: 'Tangly',
+      STARTER_TEAM_ITEM_gender: 'Sugar Baby',
+      STARTER_TEAM_ITEM_location: 'Halifax, Nova Scotia',
+      STARTER_TEAM_ITEM_state: 'Online Recently',
+      STARTER_TEAM_ITEM_DESCRIPTION: 'A go with the flow type of person - Be bold! Tell me about yourself...'
     },
     {
       STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-01.png',
-      STARTER_TEAM_ITEM_NICKNAME: 'Melissa Tatcher',
-      STARTER_TEAM_ITEM_DESCRIPTION: 'Marketing Expert'
+      STARTER_TEAM_ITEM_NAME: 'Melissa Tatcher',
+      STARTER_TEAM_ITEM_gender: 'Sugar Daddy',
+      STARTER_TEAM_ITEM_location: 'Halifax, Nova Scotia',
+      STARTER_TEAM_ITEM_state: 'Online Recently',
+      STARTER_TEAM_ITEM_DESCRIPTION: 'danceing card playing .driving .gardeinng .going out.lots of making...'
     },
     {
       STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-02.png',
-      STARTER_TEAM_ITEM_NICKNAME: 'Stuard Ferrel',
-      STARTER_TEAM_ITEM_DESCRIPTION: 'Digital Marketer'
+      STARTER_TEAM_ITEM_NAME: 'Stuard Ferrel',
+      STARTER_TEAM_ITEM_gender: 'Sugar Baby',
+      STARTER_TEAM_ITEM_location: 'Halifax, Nova Scotia',
+      STARTER_TEAM_ITEM_state: 'Online Recently',
+      STARTER_TEAM_ITEM_DESCRIPTION: 'typically can be found in the woods having a time, dirtbiking, bon-...'
     },
     {
       STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-03.png',
-      STARTER_TEAM_ITEM_NICKNAME: 'Eva Hudson',
-      STARTER_TEAM_ITEM_DESCRIPTION: 'Creative Designer'
+      STARTER_TEAM_ITEM_NAME: 'Eva Hudson',
+      STARTER_TEAM_ITEM_gender: 'Sugar Daddy',
+      STARTER_TEAM_ITEM_location: 'Halifax, Nova Scotia',
+      STARTER_TEAM_ITEM_state: 'Online Recently',
+      STARTER_TEAM_ITEM_DESCRIPTION: 'I love the outdoors, food, music, and photography. 2 costly fetishes...'
     }
   ],
 
