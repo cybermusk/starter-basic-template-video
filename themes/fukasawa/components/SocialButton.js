@@ -5,10 +5,11 @@ import { siteConfig } from '@/lib/config'
  * @returns {JSX.Element}
  * @constructor
  */
+{/* 第12行源代码：<div className='space-x-3 text-lg text-gray-500 dark:text-gray-400'> */}
 const SocialButton = () => {
   return (
     <div className='w-52 flex-wrap flex'>
-      <div className='space-x-3 text-lg text-gray-500 dark:text-gray-400'>
+      <div className='space-x-3 text-lg text-gray-400'>
         {siteConfig('CONTACT_GITHUB') && (
           <a
             target='_blank'
