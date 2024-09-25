@@ -98,7 +98,7 @@ export const MenuList = props => {
           className='absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg dark:bg-dark-2 lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent lg:px-4 lg:py-0 lg:shadow-none dark:lg:bg-transparent xl:px-6'>
           <ul className='blcok lg:flex 2xl:ml-20'>
              <li>
-              <a href="/signup" rel='nofollow' className='ud-menu-scroll mx-8 flex py-2 text-base font-medium text-[#FF6666] group-hover:text-[#cda780] dark:text-[#FF6666] lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white' style={{ color: '#FF6666 #cda780 !important' }}>JOIN NOW</a>
+              <a href="/signup" rel='nofollow' className='ud-menu-scroll mx-8 flex py-2 text-base font-medium text-[#FF6666] group-hover:text-[#cda780] dark:text-[#FF6666] lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white' style={{ color: '#FF6666 !important' }} onMouseEnter={e => e.currentTarget.style.color = '#cda780'} onMouseLeave={e => e.currentTarget.style.color = '#FF66666'}>JOIN NOW</a>
             </li>
             <li>
               <a href="/login" rel='nofollow' className='ud-menu-scroll mx-8 flex py-2 text-base font-medium text-dark group-hover:text-[#cda780] dark:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white'>Login</a>
