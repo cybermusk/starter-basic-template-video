@@ -57,7 +57,7 @@ export const Blog = ({ posts }) => {
                       <h3>
                         <Link
                           href={item?.href}
-                          className='mb-4 inline-block text-xl font-semibold text-dark hover:text-primary dark:text-white dark:hover:text-primary sm:text-2xl lg:text-xl xl:text-2xl'>
+                          className='mb-4 inline-block text-xl font-semibold text-dark hover:text-primary dark:text-white dark:hover:text-[#cda780] sm:text-2xl lg:text-xl xl:text-2xl'>
                           {item.title}
                         </Link>
                       </h3>
