@@ -98,10 +98,10 @@ export const MenuList = props => {
           className='absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg dark:bg-dark-2 lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent lg:px-4 lg:py-0 lg:shadow-none dark:lg:bg-transparent xl:px-6'>
           <ul className='blcok lg:flex 2xl:ml-20'>
              <li>
-              <a href="/signup" rel='nofollow' className='block px-4 py-2 text-dark hover:text-[#cda780]'>Join</a>
+              <a href="/signup" rel='nofollow' className='ud-menu-scroll mx-8 flex py-2 text-base font-medium text-dark group-hover:text-[#cda780] dark:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white'>Join</a>
             </li>
             <li>
-              <a href="/login" rel='nofollow' className='block px-4 py-2 text-dark hover:text-[#cda780]'>Login</a>
+              <a href="/login" rel='nofollow' className='ud-menu-scroll mx-8 flex py-2 text-base font-medium text-dark group-hover:text-[#cda780] dark:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white'>Login</a>
             </li>
             {links?.map((link, index) => (
               <MenuItem key={index} link={link} />
