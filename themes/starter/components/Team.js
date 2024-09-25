@@ -57,9 +57,9 @@ export const Team = () => {
 
                     {/* 文字介绍 */}
                     <div className='text-center'>
-                      <p className='mb-1 text-lg font-semibold text-dark dark:text-white hover:text-[#cda780]'>
+                      <a href='/signup' rel='nofollow' className='mb-1 text-lg font-semibold text-dark dark:text-white hover:text-[#cda780]'>
                         {item.STARTER_TEAM_ITEM_NAME}
-                      </p>
+                      </a>
 
                       <p className='mb-1 text-sm text-body-color dark:text-dark-6'>
                         {item.STARTER_TEAM_ITEM_gender}
