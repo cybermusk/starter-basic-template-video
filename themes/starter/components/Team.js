@@ -57,7 +57,7 @@ export const Team = () => {
 
                     {/* 文字介绍 */}
                     <div className='text-center'>
-                      <p className='mb-1 text-lg font-semibold text-dark dark:text-white'>
+                      <p className='mb-1 text-lg font-semibold text-dark dark:text-white hover:text-[#cda780]'>
                         {item.STARTER_TEAM_ITEM_NAME}
                       </p>
 
