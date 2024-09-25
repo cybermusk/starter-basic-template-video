@@ -46,7 +46,7 @@ export const FAQ = () => {
           <div className="w-full px-4 lg:w-1/2">
             <div className="mb-12 flex lg:mb-[70px]">
               <div
-                className="mr-4 flex h-[50px] w-full max-w-[50px] items-center justify-center rounded-xl bg-primary text-white sm:mr-6 sm:h-[60px] sm:max-w-[60px]"
+                className="mr-4 flex h-[50px] w-full max-w-[50px] items-center justify-center rounded-xl bg-[#cda780] text-white sm:mr-6 sm:h-[60px] sm:max-w-[60px]"
               >
                 <SVGQuestion/>
               </div>
@@ -64,7 +64,7 @@ export const FAQ = () => {
             </div>
             <div className="mb-12 flex lg:mb-[70px]">
               <div
-                className="mr-4 flex h-[50px] w-full max-w-[50px] items-center justify-center rounded-xl bg-primary text-white sm:mr-6 sm:h-[60px] sm:max-w-[60px]"
+                className="mr-4 flex h-[50px] w-full max-w-[50px] items-center justify-center rounded-xl bg-[#cda780] text-white sm:mr-6 sm:h-[60px] sm:max-w-[60px]"
               >
                 <SVGQuestion/>
               </div>
@@ -85,7 +85,7 @@ export const FAQ = () => {
           <div className="w-full px-4 lg:w-1/2">
             <div className="mb-12 flex lg:mb-[70px]">
               <div
-                className="mr-4 flex h-[50px] w-full max-w-[50px] items-center justify-center rounded-xl bg-primary text-white sm:mr-6 sm:h-[60px] sm:max-w-[60px]"
+                className="mr-4 flex h-[50px] w-full max-w-[50px] items-center justify-center rounded-xl bg-[#cda780] text-white sm:mr-6 sm:h-[60px] sm:max-w-[60px]"
               >
                 <SVGQuestion/>
               </div>
@@ -103,7 +103,7 @@ export const FAQ = () => {
             </div>
             <div className="mb-12 flex lg:mb-[70px]">
               <div
-                className="mr-4 flex h-[50px] w-full max-w-[50px] items-center justify-center rounded-xl bg-primary text-white sm:mr-6 sm:h-[60px] sm:max-w-[60px]"
+                className="mr-4 flex h-[50px] w-full max-w-[50px] items-center justify-center rounded-xl bg-[#cda780] text-white sm:mr-6 sm:h-[60px] sm:max-w-[60px]"
               >
                 <SVGQuestion/>
               </div>
