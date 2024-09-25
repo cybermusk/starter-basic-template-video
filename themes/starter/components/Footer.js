@@ -77,14 +77,14 @@ export const Footer = props => {
                   Download APP
                 </h2>
                 <ul>
-                  <li className='mb-3'>
+                  <li className='mb-4'>
                     <a href="/download" target="_blank" rel="noopener noreferrer nofollow">
-                      <img src="https://raw.githubusercontent.com/icon-other/icon/main/download/App%20Store.png" alt="App Store" className='w-32 h-auto' />
+                      <img src="https://raw.githubusercontent.com/icon-other/icon/main/download/App%20Store.png" alt="App Store" className='w-40 h-auto' />
                     </a>
                   </li>
                   <li>
                     <a href="/download" target="_blank" rel="noopener noreferrer nofollow">
-                      <img src="https://raw.githubusercontent.com/icon-other/icon/main/download/Google%20Play.png" alt="Google Play" className='w-32 h-auto' />
+                      <img src="https://raw.githubusercontent.com/icon-other/icon/main/download/Google%20Play.png" alt="Google Play" className='w-40 h-auto' />
                     </a>
                   </li>
                 </ul>
