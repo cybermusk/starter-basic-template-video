@@ -127,7 +127,7 @@ export const Testimonials = () => {
                           </div>
 
                           <div>
-                            <p className='text-sm font-semibold text-dark dark:text-white'>
+                            <p className='text-sm font-semibold text-dark dark:text-white hover:text-[#cda780]'>
                               {item.STARTER_TESTIMONIALS_ITEM_NICKNAME}
                             </p>
                             <p className='text-xs text-body-secondary hover:text-[#cda780]'>
