@@ -75,6 +75,7 @@ export const Team = () => {
 
                       <p className='mb-1 text-sm text-body-color dark:text-dark-6'>
                         {item.STARTER_TEAM_ITEM_DESCRIPTION}
+                      </p>
 
                       {/* 社交链接 */}
                       {/* <div className='flex items-center justify-center gap-5'>
