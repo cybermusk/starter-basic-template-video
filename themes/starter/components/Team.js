@@ -73,8 +73,12 @@ export const Team = () => {
                         {item.STARTER_TEAM_ITEM_state}
                       </p>
 
+                      <p className='mb-1 text-sm font-semibold text-body-color dark:text-dark-6' style={{ textAlign: 'left' }}>
+                        {item.STARTER_TEAM_ITEM_DESCRIPTION1}
+                      </p>
+                      
                       <p className='mb-1 text-sm text-body-color dark:text-dark-6' style={{ textAlign: 'left' }}>
-                        {item.STARTER_TEAM_ITEM_DESCRIPTION}
+                        {item.STARTER_TEAM_ITEM_DESCRIPTION2}
                       </p>
 
                       {/* 社交链接 */}
