@@ -20,7 +20,7 @@ export const Hero = () => {
             >
               {/* 主标题 */}
               <h1
-                className="mb-6 text-3xl font-bold leading-snug text-[#cda780] sm:text-4xl sm:leading-snug lg:text-5xl lg:leading-[1.2]"
+                className="mb-6 text-3xl font-bold leading-snug text-white sm:text-4xl sm:leading-snug lg:text-5xl lg:leading-[1.2]"
               >
                 {siteConfig('STARTER_HERO_TITLE_1', null, CONFIG)}
               </h1>
