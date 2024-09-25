@@ -43,7 +43,7 @@ export const Team = () => {
                      <a href='/signup' rel='nofollow'>
                       <img
                         src={item.STARTER_TEAM_ITEM_AVATAR}
-                        alt='team image'
+                        alt='our members'
                         className='h-[120px] w-[120px] rounded-full'
                       />
                      </a>
@@ -58,12 +58,23 @@ export const Team = () => {
                     {/* 文字介绍 */}
                     <div className='text-center'>
                       <p className='mb-1 text-lg font-semibold text-dark dark:text-white'>
-                        {item.STARTER_TEAM_ITEM_NICKNAME}
+                        {item.STARTER_TEAM_ITEM_NAME}
                       </p>
 
-                      <p className='mb-5 text-sm text-body-color dark:text-dark-6'>
-                        {item.STARTER_TEAM_ITEM_DESCRIPTION}
+                      <p className='mb-1 text-sm text-body-color dark:text-dark-6'>
+                        {item.STARTER_TEAM_ITEM_gender}
                       </p>
+
+                      <p className='mb-1 text-sm text-body-color dark:text-dark-6'>
+                        {item.STARTER_TEAM_ITEM_location}
+                      </p>
+
+                      <p className='mb-1 text-sm text-[#58C389] dark:text-[#58C389]'>
+                        {item.STARTER_TEAM_ITEM_state}
+                      </p>
+
+                      <p className='mb-1 text-sm text-body-color dark:text-dark-6'>
+                        {item.STARTER_TEAM_ITEM_DESCRIPTION}
 
                       {/* 社交链接 */}
                       {/* <div className='flex items-center justify-center gap-5'>
