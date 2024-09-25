@@ -211,7 +211,8 @@ const CONFIG = {
       STARTER_TEAM_ITEM_gender: 'Sugar Baby',
       STARTER_TEAM_ITEM_location: 'Halifax, Nova Scotia',
       STARTER_TEAM_ITEM_state: 'Online Recently',
-      STARTER_TEAM_ITEM_DESCRIPTION: 'A go with the flow type of person - Be bold! Tell me about yourself...'
+      STARTER_TEAM_ITEM_DESCRIPTION1: 'Sweet and sassyyy',
+      STARTER_TEAM_ITEM_DESCRIPTION2: 'A go with the flow type of person - Be bold! Tell me about yourself...'
     },
     {
       STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-01.png',
@@ -219,7 +220,8 @@ const CONFIG = {
       STARTER_TEAM_ITEM_gender: 'Sugar Daddy',
       STARTER_TEAM_ITEM_location: 'Halifax, Nova Scotia',
       STARTER_TEAM_ITEM_state: 'Online Recently',
-      STARTER_TEAM_ITEM_DESCRIPTION: 'danceing card playing .driving .gardeinng .going out.lots of making...'
+      STARTER_TEAM_ITEM_DESCRIPTION1: 'looking for a loving partner',
+      STARTER_TEAM_ITEM_DESCRIPTION2: 'danceing card playing .driving .gardeinng .going out.lots of making...'
     },
     {
       STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-02.png',
@@ -227,7 +229,8 @@ const CONFIG = {
       STARTER_TEAM_ITEM_gender: 'Sugar Baby',
       STARTER_TEAM_ITEM_location: 'Halifax, Nova Scotia',
       STARTER_TEAM_ITEM_state: 'Online Recently',
-      STARTER_TEAM_ITEM_DESCRIPTION: 'typically can be found in the woods having a time, dirtbiking, bon-...'
+      STARTER_TEAM_ITEM_DESCRIPTION1: 'Physical Touch is a powerful thing',
+      STARTER_TEAM_ITEM_DESCRIPTION2: 'typically can be found in the woods having a time, dirtbiking, bon-...'
     },
     {
       STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-03.png',
@@ -235,7 +238,8 @@ const CONFIG = {
       STARTER_TEAM_ITEM_gender: 'Sugar Daddy',
       STARTER_TEAM_ITEM_location: 'Halifax, Nova Scotia',
       STARTER_TEAM_ITEM_state: 'Online Recently',
-      STARTER_TEAM_ITEM_DESCRIPTION: 'I love the outdoors, food, music, and photography. 2 costly fetishes...'
+      STARTER_TEAM_ITEM_DESCRIPTION1: 'very open minded, fetish friendly',
+      STARTER_TEAM_ITEM_DESCRIPTION2: 'I love the outdoors, food, music, and photography. 2 costly fetishes...'
     }
   ],
 
