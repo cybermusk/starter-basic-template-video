@@ -69,6 +69,28 @@ export const Footer = props => {
               )
             })}
 
+            {/* 添加谷歌和ios下载链接*/}
+            {/* 新增 Download APP 列 */}
+            <div className='w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12'>
+              <div className='mb-10 w-full'>
+                <h2 className='mb-9 text-lg font-semibold text-white'>
+                  Download APP
+                </h2>
+                <ul>
+                  <li className='mb-3'>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                      <img src="https://raw.githubusercontent.com/icon-other/icon/main/download/App%20Store.png" alt="App Store" className='w-32 h-auto' />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                      <img src="https://raw.githubusercontent.com/icon-other/icon/main/download/Google%20Play.png" alt="Google Play" className='w-32 h-auto' />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
             {/* 页脚右侧最新博文 */}
           {/*
             <div className='w-full px-4 md:w-2/3 lg:w-6/12 xl:w-3/12'>
