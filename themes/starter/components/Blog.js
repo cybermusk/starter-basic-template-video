@@ -51,9 +51,11 @@ export const Blog = ({ posts }) => {
                       </Link>
                     </div>
                     <div>
+                    {/* 隐藏蓝色分隔符
                       <span className='mb-6 inline-block rounded-[5px] bg-primary px-4 py-0.5 text-center text-xs font-medium leading-loose text-white'>
                         {item.publishDay}
                       </span>
+                    */}
                       <h3>
                         <Link
                           href={item?.href}
