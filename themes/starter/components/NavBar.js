@@ -49,7 +49,7 @@ export const NavBar = (props) => {
 
   return <>
         {/* <!-- ====== Navbar Section Start --> */}
-        <div className="ud-header absolute left-0 top-0 z-40 flex w-full items-center bg-transparent sticky" >
+        <div className="ud-header absolute left-0 top-0 z-40 flex w-full items-center bg-transparent" >
 
         <div className="container">
 
