@@ -30,20 +30,22 @@ export const NavBar = (props) => {
   }, [[isDarkMode]])
 
   // 滚动监听
-  const throttleMs = 200;
+  const throttleMs = 200
   const navBarScollListener = useCallback(
     throttle(() => {
       const ud_header = document.querySelector('.ud-header');
       const scrollY = window.scrollY;
-      const windowHeight = window.innerHeight; // 获取窗口高度
+      const headerHeight = ud_header.offsetHeight; // 获取横幅的高度
+  
       // 控制台输出当前滚动位置和 sticky 值
-      if (scrollY >= windowHeight) { // 修改条件
+      if (scrollY >= headerHeight) { // 当滚动超过横幅高度时添加 sticky
         ud_header?.classList?.add('sticky');
       } else {
         ud_header?.classList?.remove('sticky');
       }
-    }, throttleMs)
-  )
+    }, throttleMs),
+    [] // 添加依赖数组以避免无限循环
+  );
 
   return <>
         {/* <!-- ====== Navbar Section Start --> */}
