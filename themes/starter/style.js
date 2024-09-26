@@ -75,8 +75,8 @@ const Style = () => {
     opacity: 1;
   }
 
-  .menu-color {
-  color: #FF6666; /* 设置menu的JOIN NOW按钮为优先级更高的颜色 */
+  #navbarCollapse .menu-color {
+    color: #FF6666; /* 设置menu的JOIN NOW按钮为优先级更高的颜色 */
   }
   
   #theme-starter .sticky .loginBtn{
