@@ -58,13 +58,10 @@ export const BackToTopButton = () => {
   )
 
   return <>
-      {/* <!-- ====== Back To Top Start --> */}
-      <a 
-          className="back-to-top fixed bottom-16 left-auto right-8 z-[999] hidden h-10 w-10 items-center justify-center rounded-md bg-[#ff6666] text-white shadow-md transition duration-300 ease-in-out hover:bg-[#cda780]"
-          onClick={() => window.scrollTo(0, 0)} // 直接跳转到顶部
-      >
-          <span className="mt-[6px] h-3 w-3 rotate-45 border-l border-t border-white"></span>
-      </a>
-      {/* <!-- ====== Back To Top End --> */}
-  </>
+        {/* <!-- ====== Back To Top Start --> */}
+        <a className="back-to-top fixed bottom-16 left-auto right-8 z-[999] hidden h-10 w-10 items-center justify-center rounded-md bg-[#ff6666] text-white shadow-md transition duration-300 ease-in-out hover:bg-[#cda780]">
+            <span className="mt-[6px] h-3 w-3 rotate-45 border-l border-t border-white" ></span>
+         </a>
+    {/* <!-- ====== Back To Top End --> */}
+    </>
 }
