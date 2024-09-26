@@ -15,7 +15,7 @@ export const Team = () => {
           <div className='-mx-4 flex flex-wrap'>
             <div className='w-full px-4'>
               <div className='mx-auto mb-[60px] max-w-[485px] text-center'>
-                <span className='mb-2 block text-lg font-semibold text-primary'>
+                <span className='mb-2 block text-lg font-semibold text-[#FF6666]'>
                   {siteConfig('STARTER_TEAM_TITLE', null, CONFIG)}
                 </span>
                 <h2 className='mb-3 text-3xl font-bold leading-[1.2] text-dark dark:text-white sm:text-4xl md:text-[40px]'>
