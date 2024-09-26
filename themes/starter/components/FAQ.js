@@ -25,7 +25,7 @@ export const FAQ = () => {
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
             <div className="mx-auto mb-[60px] max-w-[520px] text-center">
-              <span className="mb-2 block text-lg font-semibold text-primary">
+              <span className="mb-2 block text-lg font-semibold text-[#FF6666]">
                 {siteConfig('STARTER_FAQ_TITLE', null, CONFIG)}
               </span>
               <h2
