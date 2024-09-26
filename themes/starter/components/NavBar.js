@@ -15,7 +15,7 @@ export const NavBar = (props) => {
   const router = useRouter();
   const { isDarkMode } = useGlobal();
   const [buttonTextColor, setColor] = useState(router.route === '/' ? 'text-white' : '');
-  const [isSticky, setIsSticky] = useState(false); // 新增状态控制 sticky
+  const [isSticky, setIsSticky] = useState(false);
 
   useEffect(() => {
     if (isDarkMode || router.route === '/') {
@@ -39,8 +39,12 @@ export const NavBar = (props) => {
       const screenWidth = window.innerWidth;
 
       // 中等及以上屏幕时，只有在滚动到第二屏时显示 sticky
-      if (screenWidth >= 768) { // 假设中等屏幕为768px
-        setIsSticky(scrollY > window.innerHeight);
+      if (screenWidth >= 768) {
+        if (scrollY > window.innerHeight) {
+          setIsSticky(true);
+        } else {
+          setIsSticky(false); // 在第一屏时，移除 sticky
+        }
       } else {
         setIsSticky(true); // 小屏幕始终显示 sticky
       }
