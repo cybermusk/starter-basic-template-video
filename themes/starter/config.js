@@ -17,16 +17,16 @@ const CONFIG = {
   STARTER_HERO_BUTTON_1_URL:
     '/signup', // 英雄区按钮
   STARTER_HERO_BUTTON_2_TEXT: 'LOG IN', // 英雄区按钮
-  STARTER_HERO_BUTTON_2_URL: '/signin', // 英雄区按钮
+  STARTER_HERO_BUTTON_2_URL: '/login', // 英雄区按钮
   STARTER_HERO_BUTTON_2_ICON: '', // 英雄区按钮2的前置图标，不需要则留空
 
   STARTER_HERO_PREVIEW_IMAGE: '', // 产品预览图 ，默认读取public目录下图片 images/starter/hero/hero-image.webp
 
   // 顶部右侧导航暗流
-  STARTER_NAV_BUTTON_1_TEXT: 'SIGN IN',
-  STARTER_NAV_BUTTON_1_URL: '/signin',
+  STARTER_NAV_BUTTON_1_TEXT: 'Login',
+  STARTER_NAV_BUTTON_1_URL: '/login',
 
-  STARTER_NAV_BUTTON_2_TEXT: 'SIGN UP',
+  STARTER_NAV_BUTTON_2_TEXT: 'JOIN NOW',
   STARTER_NAV_BUTTON_2_URL: '/signup',
 
   // 特性区块
