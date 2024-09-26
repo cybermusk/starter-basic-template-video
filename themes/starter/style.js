@@ -76,7 +76,11 @@ const Style = () => {
   }
 
   #navbarCollapse li > a.menu-color {
-    color: #FF6666; /* 设置menu的JOIN NOW按钮为优先级更高的颜色 */
+    color: #FF6666 !important; /* 强制默认颜色 */
+  }
+  
+  #navbarCollapse li > a.menu-color:hover {
+    color: #cda780; /* 悬停颜色 */
   }
   
   #theme-starter .sticky .loginBtn{
