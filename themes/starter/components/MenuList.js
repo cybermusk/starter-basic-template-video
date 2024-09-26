@@ -98,10 +98,10 @@ export const MenuList = props => {
           className='absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg dark:bg-dark-2 lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent lg:px-4 lg:py-0 lg:shadow-none dark:lg:bg-transparent xl:px-6'>
           <ul className='blcok lg:flex 2xl:ml-20'>
              <li>
-              <a href="/signup" rel='nofollow' className='ud-menu-scroll mx-8 flex py-2 text-base font-medium text-[#FF6666] hover:text-[#cda780] dark:text-[#FF6666] lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white'>JOIN NOW</a>
+              <a href="/signup" rel='nofollow' className='ud-menu-scroll mx-8 flex py-2 text-base font-medium menu-color hover:text-[#cda780] lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white lg:hidden'>JOIN NOW</a>
             </li>
             <li>
-              <a href="/login" rel='nofollow' className='ud-menu-scroll mx-8 flex py-2 text-base font-medium text-dark hover:text-[#cda780] dark:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white'>Login</a>
+              <a href="/login" rel='nofollow' className='ud-menu-scroll mx-8 flex py-2 text-base font-medium text-dark hover:text-[#cda780] dark:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 lg:text-white lg:hidden'>Login</a>
             </li>
             {links?.map((link, index) => (
               <MenuItem key={index} link={link} />
