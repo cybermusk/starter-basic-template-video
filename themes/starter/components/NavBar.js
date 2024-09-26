@@ -1,6 +1,5 @@
-/* eslint-disable no-unreachable */
 import throttle from 'lodash.throttle';
-import { useCallback, useEffect, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react';
 import { MenuList } from './MenuList';
 import { DarkModeButton } from './DarkModeButton';
 import { Logo } from './Logo';
@@ -13,79 +12,78 @@ import { useGlobal } from '@/lib/global';
  * 顶部导航栏
  */
 export const NavBar = (props) => {
-  const router = useRouter()
-  const { isDarkMode } = useGlobal()
-  const [buttonTextColor, setColor] = useState(router.route === '/' ? 'text-white' : '')
+  const router = useRouter();
+  const { isDarkMode } = useGlobal();
+  const [buttonTextColor, setColor] = useState(router.route === '/' ? 'text-white' : '');
+  const [isSticky, setIsSticky] = useState(false); // 新增状态控制 sticky
+
   useEffect(() => {
     if (isDarkMode || router.route === '/') {
-      setColor('text-white')
+      setColor('text-white');
     } else {
-      setColor('')
+      setColor('');
     }
-    // ======= Sticky
-    window.addEventListener('scroll', navBarScollListener)
+
+    // 添加滚动事件监听
+    window.addEventListener('scroll', navBarScrollListener);
     return () => {
-      window.removeEventListener('scroll', navBarScollListener)
-    }
-  }, [[isDarkMode]])
+      window.removeEventListener('scroll', navBarScrollListener);
+    };
+  }, [isDarkMode, router.route]);
 
   // 滚动监听
-  const throttleMs = 200
-  const navBarScollListener = useCallback(
+  const throttleMs = 200;
+  const navBarScrollListener = useCallback(
     throttle(() => {
-    // eslint-disable-next-line camelcase
-      const ud_header = document.querySelector('.ud-header');
       const scrollY = window.scrollY;
-      // 控制台输出当前滚动位置和 sticky 值
-      if (scrollY >= 0) {
-        ud_header?.classList?.add('sticky');
+      const screenWidth = window.innerWidth;
+
+      // 中等及以上屏幕时，只有在滚动到第二屏时显示 sticky
+      if (screenWidth >= 768) { // 假设中等屏幕为768px
+        setIsSticky(scrollY > window.innerHeight);
       } else {
-        ud_header?.classList?.remove('sticky');
+        setIsSticky(true); // 小屏幕始终显示 sticky
       }
-    }, throttleMs)
-  )
+    }, throttleMs),
+    []
+  );
 
-  return <>
-        {/* <!-- ====== Navbar Section Start --> */}
-        <div className="ud-header absolute left-0 top-0 z-40 flex w-full items-center bg-transparent sticky" >
-
+  return (
+    <>
+      {/* <!-- ====== Navbar Section Start --> */}
+      <div className={`ud-header absolute left-0 top-0 z-40 flex w-full items-center bg-transparent ${isSticky ? 'sticky' : ''}`}>
         <div className="container">
-
-            <div className="relative -mx-4 flex items-center justify-between">
-
-                {/* Logo */}
-                <Logo/>
-
-                <div className="flex w-full items-center justify-between px-4">
-
-                    {/* 中间菜单 */}
-                    <MenuList {...props}/>
-
-                    {/* 右侧功能 */}
-                    <div className="flex items-center justify-end pr-16 lg:pr-0">
-                        {/* 深色模式切换 */}
-                        <DarkModeButton/>
-                        {/* 注册登录功能 */}
-                        <div className="hidden sm:flex">
-                            <a
-                            href={siteConfig('STARTER_NAV_BUTTON_1_URL', null, CONFIG)}
-                            className={`loginBtn ${buttonTextColor}  px-[22px] py-2 text-base font-medium hover:opacity-70`}
-                            >
-                           {siteConfig('STARTER_NAV_BUTTON_1_TEXT', null, CONFIG)}
-                            </a>
-                            <a
-                            href={siteConfig('STARTER_NAV_BUTTON_2_URL', null, CONFIG)}
-                            className={`signUpBtn ${buttonTextColor} rounded-md bg-white bg-opacity-20 px-6 py-2 text-base font-bold duration-300 ease-in-out hover:bg-opacity-100 hover:text-dark`}
-                            >
-                           {siteConfig('STARTER_NAV_BUTTON_2_TEXT', null, CONFIG)}
-                            </a>
-                        </div>
-                    </div>
-
+          <div className="relative -mx-4 flex items-center justify-between">
+            {/* Logo */}
+            <Logo />
+            <div className="flex w-full items-center justify-between px-4">
+              {/* 中间菜单 */}
+              <MenuList {...props} />
+              {/* 右侧功能 */}
+              <div className="flex items-center justify-end pr-16 lg:pr-0">
+                {/* 深色模式切换 */}
+                <DarkModeButton />
+                {/* 注册登录功能 */}
+                <div className="hidden sm:flex">
+                  <a
+                    href={siteConfig('STARTER_NAV_BUTTON_1_URL', null, CONFIG)}
+                    className={`loginBtn ${buttonTextColor} px-[22px] py-2 text-base font-medium hover:opacity-70`}
+                  >
+                    {siteConfig('STARTER_NAV_BUTTON_1_TEXT', null, CONFIG)}
+                  </a>
+                  <a
+                    href={siteConfig('STARTER_NAV_BUTTON_2_URL', null, CONFIG)}
+                    className={`signUpBtn ${buttonTextColor} rounded-md bg-white bg-opacity-20 px-6 py-2 text-base font-bold duration-300 ease-in-out hover:bg-opacity-100 hover:text-dark`}
+                  >
+                    {siteConfig('STARTER_NAV_BUTTON_2_TEXT', null, CONFIG)}
+                  </a>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-    {/* <!-- ====== Navbar Section End --> */}
+      </div>
+      {/* <!-- ====== Navbar Section End --> */}
     </>
+  );
 }
