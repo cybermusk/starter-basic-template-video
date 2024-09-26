@@ -34,7 +34,7 @@ export const BackToTopButton = () => {
     const backToTop = document.querySelector('.back-to-top')
     if (backToTop) {
       backToTop.onclick = () => {
-        scrollTo(document.documentElement);
+        document.documentElement.scrollTop = 0; // 瞬间返回顶部，无任何动效
       };
     }
 
