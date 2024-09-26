@@ -74,6 +74,10 @@ const Style = () => {
     color: rgb(55 88 249 / var(--tw-text-opacity));
     opacity: 1;
   }
+
+  .menu-color {
+  color: #FF6666; /* 设置menu的JOIN NOW按钮为优先级更高的颜色 */
+  }
   
   #theme-starter .sticky .loginBtn{
     --tw-text-opacity: 1;
