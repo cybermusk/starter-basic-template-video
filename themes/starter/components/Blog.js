@@ -63,9 +63,14 @@ export const Blog = ({ posts }) => {
                           {item.title}
                         </Link>
                       </h3>
+                    {/*
                       <p className='max-w-[370px] text-base text-body-color dark:text-dark-6'>
                         {item.summary}
                       </p>
+                    */}
+                      <span className='md:hidden mb-6 inline-block rounded-[5px] bg-[#FF6666] px-4 py-0.5 text-center text-xs font-medium leading-loose text-white'>
+                        {item.publishDay}
+                      </span>
                     </div>
                   </div>
                 </div>
