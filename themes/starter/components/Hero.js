@@ -16,7 +16,7 @@ export const Hero = () => {
           loop
           muted
         >
-          <source src="/images/starter/1.mp4" type="video/mp4" />
+          <source src="/video/starter/custom-video/test1.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 
