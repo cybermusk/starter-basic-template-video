@@ -77,10 +77,12 @@ const Style = () => {
 
   #navbarCollapse li > a.menu-color {
     color: #FF6666 !important; /* 强制默认颜色 */
+    font-weight: bold;
   }
   
   #navbarCollapse li > a.menu-color:hover {
     color: #cda780 !important; /* 悬停颜色 */
+    font-weight: bold;
   }
   
   #theme-starter .sticky .loginBtn{
