@@ -32,6 +32,11 @@ export const BackToTopButton = () => {
       return (-c / 2) * (t * (t - 2) - 1) + b;
     };
     const backToTop = document.querySelector('.back-to-top')
+  {/* if (backToTop) {
+    backToTop.onclick = () => {
+      document.documentElement.scrollTop = 0; // 瞬间返回顶部，无任何动效
+    };
+  } */}
     if (backToTop) {
       backToTop.onclick = () => {
         document.documentElement.scrollTop = 0; // 瞬间返回顶部，无任何动效
