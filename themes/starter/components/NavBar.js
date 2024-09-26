@@ -29,27 +29,44 @@ export const NavBar = (props) => {
     }
   }, [[isDarkMode]])
 
-  // 滚动监听
-  const throttleMs = 200
-  const navBarScollListener = useCallback(
-    throttle(() => {
-    // eslint-disable-next-line camelcase
-      const ud_header = document.querySelector('.ud-header');
-      const scrollY = window.scrollY;
-      // 控制台输出当前滚动位置和 sticky 值
-      if (scrollY >= 0) {
-        ud_header?.classList?.add('sticky');
-      } else {
-        ud_header?.classList?.remove('sticky');
-      }
-    }, throttleMs)
-  )
-
-  return <>
-        {/* <!-- ====== Navbar Section Start --> */}
-        <div className="ud-header absolute left-0 top-0 z-40 flex w-full items-center bg-transparent sticky" >
-
-        <div className="container">
+      // 滚动监听
+      const throttleMs = 200;
+      const navBarScrollListener = useCallback(
+        throttle(() => {
+          // eslint-disable-next-line camelcase
+          const ud_header = document.querySelector('.ud-header');
+          const scrollY = window.scrollY;
+      
+          // 针对中等以上的屏幕
+          if (window.innerWidth >= 768) {
+            if (scrollY > window.innerHeight) { // 滑动到第二屏
+              ud_header?.classList?.add('sticky');
+            } else {
+              ud_header?.classList?.remove('sticky');
+            }
+          } else {
+            // 小屏幕保持现状
+            if (scrollY >= 0) {
+              ud_header?.classList?.add('sticky');
+            } else {
+              ud_header?.classList?.remove('sticky');
+            }
+          }
+        }, throttleMs)
+      );
+      
+        useEffect(() => {
+          window.addEventListener('scroll', navBarScrollListener);
+          return () => {
+            window.removeEventListener('scroll', navBarScrollListener);
+          };
+        }, [navBarScrollListener]);
+        
+        return <>
+          {/* <!-- ====== Navbar Section Start --> */}
+          <div className="ud-header absolute left-0 top-0 z-40 flex w-full items-center bg-transparent sticky">
+  
+            <div className="container">
 
             <div className="relative -mx-4 flex items-center justify-between">
 
