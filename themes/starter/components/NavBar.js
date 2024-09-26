@@ -15,7 +15,7 @@ export const NavBar = (props) => {
   const router = useRouter();
   const { isDarkMode } = useGlobal();
   const [buttonTextColor, setColor] = useState(router.route === '/' ? 'text-white' : '');
-  const [isSticky, setIsSticky] = useState(false); // 新增状态控制 sticky
+  const [isSticky, setIsSticky] = useState(false);
 
   useEffect(() => {
     if (isDarkMode || router.route === '/') {
@@ -24,7 +24,6 @@ export const NavBar = (props) => {
       setColor('');
     }
 
-    // 添加滚动事件监听
     window.addEventListener('scroll', navBarScrollListener);
     return () => {
       window.removeEventListener('scroll', navBarScrollListener);
