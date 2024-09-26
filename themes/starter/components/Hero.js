@@ -39,7 +39,7 @@ export const Hero = () => {
                 <li>
                   <a
                     href={siteConfig('STARTER_HERO_BUTTON_1_URL', null, CONFIG)}
-                    className="inline-flex items-center justify-center rounded-md bg-[#ff6666] px-7 py-[14px] text-center text-lg font-bold text-white shadow-1 transition duration-300 ease-in-out hover:bg-[#cda780]"
+                    className="inline-flex items-center justify-center rounded-md bg-[#ff6666] px-7 py-[14px] text-center text-lg font-bold text-white shadow-1 transition duration-300 ease-in-out hover:bg-[#cda780]" rel="noreferrer nofollow"
                   >
                      {siteConfig('STARTER_HERO_BUTTON_1_TEXT', null, CONFIG)}
                   </a>
@@ -50,7 +50,7 @@ export const Hero = () => {
                   <a
                     href={siteConfig('STARTER_HERO_BUTTON_2_URL', null, CONFIG)}
                     target="_self"
-                    className="flex items-center rounded-md bg-white/[0.12] px-6 py-[14px] text-base font-medium text-white transition duration-300 ease-in-out hover:text-[#cda780]" rel="noreferrer"
+                    className="hidden md:flex items-center rounded-md bg-white/[0.12] px-6 py-[14px] text-base font-medium text-white transition duration-300 ease-in-out hover:text-[#cda780]" rel="noreferrer nofollow"
                   >
                     {siteConfig('STARTER_HERO_BUTTON_2_ICON', null, CONFIG) && <img className='mr-4' src={siteConfig('STARTER_HERO_BUTTON_2_ICON', null, CONFIG)}/>}
                     {siteConfig('STARTER_HERO_BUTTON_2_TEXT', null, CONFIG)}
