@@ -80,7 +80,7 @@ const Style = () => {
   }
   
   #navbarCollapse li > a.menu-color:hover {
-    color: #cda780; /* 悬停颜色 */
+    color: #cda780 !important; /* 悬停颜色 */
   }
   
   #theme-starter .sticky .loginBtn{
