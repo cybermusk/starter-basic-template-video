@@ -30,14 +30,14 @@ export const NavBar = (props) => {
   }, [[isDarkMode]])
 
   // 滚动监听
-  const throttleMs = 200
+  const throttleMs = 200;
   const navBarScollListener = useCallback(
     throttle(() => {
-    // eslint-disable-next-line camelcase
       const ud_header = document.querySelector('.ud-header');
       const scrollY = window.scrollY;
+      const windowHeight = window.innerHeight; // 获取窗口高度
       // 控制台输出当前滚动位置和 sticky 值
-      if (scrollY >= 0) {
+      if (scrollY >= windowHeight) { // 修改条件
         ud_header?.classList?.add('sticky');
       } else {
         ud_header?.classList?.remove('sticky');
