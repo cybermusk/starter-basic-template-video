@@ -38,7 +38,7 @@ export const Hero = () => {
                 <li>
                   <a
                     href={siteConfig('STARTER_HERO_BUTTON_1_URL', null, CONFIG)}
-                    className="inline-flex items-center justify-center rounded-md bg-[#ff6666] px-7 py-[14px] text-center text-base font-bold text-white shadow-1 transition duration-300 ease-in-out hover:bg-[#cda780]"
+                    className="inline-flex items-center justify-center rounded-md bg-[#ff6666] px-7 py-[14px] text-center text-base font-extrabold text-white shadow-1 transition duration-300 ease-in-out hover:bg-[#cda780]"
                   >
                      {siteConfig('STARTER_HERO_BUTTON_1_TEXT', null, CONFIG)}
                   </a>
