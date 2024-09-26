@@ -9,7 +9,7 @@ export const Hero = () => {
      {/* <!-- ====== Hero Section Start --> */}
      <div
       id="home"
-      className="relative overflow-hidden bg-custom-img w-full h-screen flex items-center justify-center"
+      className="relative overflow-hidden bg-custom-img bg-cover bg-center w-full h-screen flex items-center justify-center"
     >
       <div className="container">
         <div className="-mx-4 flex flex-wrap items-center">
