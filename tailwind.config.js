@@ -63,7 +63,7 @@ module.exports = {
         'gray-7': '#CED4DA'
       },
       backgroundImage: {
-        'custom-img': "url('/images/starter/custom-images/test4.webp')" // 自定义背景图片类
+        'custom-img': "url('/images/starter/custom-images/test5.webp')" // 自定义背景图片类
       },
       maxWidth: {
         side: '14rem',
