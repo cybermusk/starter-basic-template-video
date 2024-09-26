@@ -34,7 +34,7 @@ export const About = () => {
                 {/* className="inline-flex items-center justify-center rounded-md border border-primary bg-primary px-7 py-3 text-center text-base font-medium text-white hover:border-blue-dark hover:bg-blue-dark" */}
                 <a
                   href={siteConfig('STARTER_ABOUT_BUTTON_URL', null, CONFIG)}
-                  className="inline-flex items-center justify-center rounded-md border bg-[#FF6666] px-7 py-3 text-center text-base font-medium text-white hover:bg-[#cda780]"
+                  className="inline-flex items-center justify-center rounded-md border bg-[#FF6666] px-7 py-3 text-center text-2xl font-bold text-white hover:bg-[#cda780]"
                 >
                   {siteConfig('STARTER_ABOUT_BUTTON_TEXT', null, CONFIG)}
                 </a>
