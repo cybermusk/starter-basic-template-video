@@ -75,7 +75,7 @@ const Style = () => {
     opacity: 1;
   }
 
-  #navbarCollapse .menu-color {
+  #navbarCollapse li > a.menu-color {
     color: #FF6666; /* 设置menu的JOIN NOW按钮为优先级更高的颜色 */
   }
   
