@@ -85,35 +85,35 @@ const Style = () => {
     font-weight: bold;
   }
   
-  #theme-starter .sticky .loginBtn{
+  #theme-starter .loginBtn{
     --tw-text-opacity: 1;
     color: rgb(17 25 40 / var(--tw-text-opacity));
   }
   
-  #theme-starter .sticky .loginBtn:hover{
+  #theme-starter .loginBtn:hover{
     --tw-text-opacity: 1;
     color: rgb(205 167 128 / var(--tw-text-opacity));
     opacity: 1;
   }
   
-  :is(.dark #theme-starter .sticky .loginBtn){
+  :is(.dark #theme-starter .loginBtn){
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
   }
   
-  :is(.dark #theme-starter .sticky .loginBtn:hover){
+  :is(.dark #theme-starter .loginBtn:hover){
     --tw-text-opacity: 1;
     color: rgb(205 167 128 / var(--tw-text-opacity));
   }
   
-  #theme-starter .sticky .signUpBtn{
+  #theme-starter .signUpBtn{
     --tw-bg-opacity: 1;
     background-color: rgb(255 102 102 / var(--tw-bg-opacity));
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
   }
 
-  #theme-starter .sticky .signUpBtn:hover{
+  #theme-starter .signUpBtn:hover{
     --tw-bg-opacity: 1;
     background-color: rgb(205 167 128 / var(--tw-bg-opacity));
     --tw-text-opacity: 1;
