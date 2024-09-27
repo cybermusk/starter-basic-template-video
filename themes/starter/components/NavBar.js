@@ -30,24 +30,25 @@ export const NavBar = (props) => {
   }, [[isDarkMode]])
 
   // 滚动监听
-  const throttleMs = 200
-  const navBarScollListener = useCallback(
+  const throttleMs = 200;
+  const navBarScrollListener = useCallback(
     throttle(() => {
-    // eslint-disable-next-line camelcase
       const ud_header = document.querySelector('.ud-header');
+      const firstScreenHeight = window.innerHeight; // 获取第一屏的高度
       const scrollY = window.scrollY;
+  
       // 控制台输出当前滚动位置和 sticky 值
-      if (scrollY >= 0) {
+      if (scrollY > firstScreenHeight) {
         ud_header?.classList?.add('sticky');
       } else {
         ud_header?.classList?.remove('sticky');
       }
     }, throttleMs)
-  )
+  );
 
   return <>
         {/* <!-- ====== Navbar Section Start --> */}
-        <div className="ud-header absolute left-0 top-0 z-40 flex w-full items-center bg-transparent sticky" >
+        <div className="ud-header absolute left-0 top-0 z-40 flex w-full items-center bg-transparent" >
 
         <div className="container">
 
