@@ -13,7 +13,7 @@ export const MenuItem = ({ link }) => {
           <Link
             href={link?.href}
             target={link?.target}
-            className={`ud-menu-scroll mx-8 flex py-2 text-base font-medium text-dark group-hover:text-[#cda780] dark:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 ${router.route === '/' ? '' : ''}`}>
+            className={`ud-menu-scroll mx-8 flex py-2 text-base font-medium text-dark group-hover:text-[#cda780] dark:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 ${router.route === '/' ? 'lg:text-white' : ''}`}>
             {link?.icon && <i className={link.icon + ' mr-2 my-auto'} />}
             {link?.name}
           </Link>
@@ -24,7 +24,7 @@ export const MenuItem = ({ link }) => {
         <li className='submenu-item group relative whitespace-nowrap'>
           {/* 有子菜单的MenuItem */}
           <a
-            className={`relative mx-8 flex items-center justify-between py-2 text-base font-medium text-dark group-hover:text-[#cda780] dark:text-white lg:ml-8 lg:mr-0 lg:inline-flex lg:py-6 lg:pl-0 lg:pr-4 ${router.route === '/' ? '' : ''} xl:ml-10`}>
+            className={`relative mx-8 flex items-center justify-between py-2 text-base font-medium text-dark group-hover:text-[#cda780] dark:text-white lg:ml-8 lg:mr-0 lg:inline-flex lg:py-6 lg:pl-0 lg:pr-4 ${router.route === '/' ? 'lg:text-white' : ''} xl:ml-10`}>
             {link?.icon && <i className={link.icon + ' mr-2 my-auto'} />}
             {link?.name}
 
