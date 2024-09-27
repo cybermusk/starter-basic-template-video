@@ -31,7 +31,7 @@ export const NavBar = (props) => {
 
   // 滚动监听
   const throttleMs = 200;
-  const navBarScrollListener = useCallback(
+  const navBarScollListener = useCallback(
     throttle(() => {
       const ud_header = document.querySelector('.ud-header');
       const firstScreenHeight = window.innerHeight; // 获取第一屏的高度
