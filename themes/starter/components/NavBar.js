@@ -39,12 +39,24 @@ export const NavBar = (props) => {
   
       // 控制台输出当前滚动位置和 sticky 值
       if (scrollY > firstScreenHeight) {
-        ud_header?.classList?.add('sticky');
+        ud_header?.classList?.add('sticky'); // 超过第一屏添加 sticky
+        ud_header.style.position = ''; // 恢复默认位置
       } else {
-        ud_header?.classList?.remove('sticky');
+        ud_header?.classList?.remove('sticky'); // 在第一屏时不加 sticky
+        ud_header.style.position = 'fixed'; // 设置为 fixed，让它固定在视口
+        ud_header.style.top = '0'; // 固定在顶部
       }
-    }, throttleMs)
+    }, throttleMs),
+    []
   );
+  
+  // 在 useEffect 中注册和清理事件监听器
+  useEffect(() => {
+    window.addEventListener('scroll', navBarScollListener);
+    return () => {
+      window.removeEventListener('scroll', navBarScollListener);
+    };
+  }, [navBarScollListener]);
 
   return <>
         {/* <!-- ====== Navbar Section Start --> */}
