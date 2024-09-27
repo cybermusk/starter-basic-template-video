@@ -89,6 +89,11 @@ const Style = () => {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
   }
+
+  #theme-starter .sticky .loginBtn{
+  --tw-text-opacity: 1;
+  color: rgb(17 25 40 / var(--tw-text-opacity));
+  }
   
   #theme-starter .loginBtn:hover{
     --tw-text-opacity: 1;
