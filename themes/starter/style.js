@@ -34,7 +34,7 @@ const Style = () => {
     padding-bottom: 0.5rem;
   }
 
-    #theme-starter #navbarToggler span{
+  #theme-starter #navbarToggler span{
     --tw-bg-opacity: 1;
     background-color: rgb(255 102 102 / var(--tw-bg-opacity));
   }
