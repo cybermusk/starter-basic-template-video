@@ -56,6 +56,7 @@ export const Footer = props => {
                             <h3>
                               <a
                                 href={l.URL}
+                                rel="nofollow"
                                 className='mb-3 inline-block text-base text-gray-7 hover:text-[#cda780]'>
                                 {l.TITLE}
                               </a>
