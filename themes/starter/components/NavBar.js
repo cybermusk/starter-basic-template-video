@@ -83,7 +83,7 @@ export const NavBar = (props) => {
                         <div className="hidden sm:flex">
                             <a
                             href={siteConfig('STARTER_NAV_BUTTON_1_URL', null, CONFIG)}
-                            className={`loginBtn ${buttonTextColor}  px-[22px] py-2 text-base text-dark font-medium hover:opacity-100`}
+                            className={`loginBtn ${buttonTextColor}  text-black px-[22px] py-2 text-base font-medium hover:opacity-100`}
                             >
                            {siteConfig('STARTER_NAV_BUTTON_1_TEXT', null, CONFIG)}
                             </a>
