@@ -311,7 +311,7 @@ const CONFIG = {
   // 页脚三列菜单组
   STARTER_FOOTER_LINK_GROUP: [
     {
-      TITLE: 'OUR COMPANY', // 第一列
+      TITLE: 'OUR COMPANY',
       LINK_GROUP: [
         { TITLE: 'About Us', URL: '/company/about-us' },
         { TITLE: 'Contact Us', URL: '/support/feedbacks' },
@@ -319,7 +319,7 @@ const CONFIG = {
       ]
     },
     {
-      TITLE: 'SAFETY', //第二列
+      TITLE: 'SAFETY',
       LINK_GROUP: [
         { TITLE: 'Notice of Collection', URL: '/safety/notice-of-collection'},
         { TITLE: 'Community Guidelines', URL: '/safety/community-guidelines' },
@@ -330,7 +330,7 @@ const CONFIG = {
     
     /*
     {
-      TITLE: 'Notion写作', //第三列
+      TITLE: 'Notion写作',
       LINK_GROUP: [
         {
           TITLE: 'Notion开始写作',
@@ -347,7 +347,7 @@ const CONFIG = {
       ]
     }
   ],
-  */
+  *//
 
   // STARTER_FOOTER_BLOG_LATEST_TITLE: '最新文章',
 
