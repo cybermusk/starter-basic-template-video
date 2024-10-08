@@ -79,16 +79,17 @@ export const NavBar = (props) => {
                         {/* 深色模式切换 */}
                         <DarkModeButton/>
                         {/* 注册登录功能 */}
+                        {/* 原注册按钮：className={`signUpBtn ${buttonTextColor} rounded-md bg-white bg-opacity-20 px-6 py-2 text-base font-bold duration-300 ease-in-out hover:bg-opacity-100 hover:text-dark`}*/}
                         <div className="hidden sm:flex">
                             <a
                             href={siteConfig('STARTER_NAV_BUTTON_1_URL', null, CONFIG)}
-                            className={`loginBtn ${buttonTextColor}  px-[22px] py-2 text-base font-medium hover:opacity-70`}
+                            className={`loginBtn ${buttonTextColor}  px-[22px] py-2 text-base text-dark font-medium hover:opacity-100`}
                             >
                            {siteConfig('STARTER_NAV_BUTTON_1_TEXT', null, CONFIG)}
                             </a>
                             <a
                             href={siteConfig('STARTER_NAV_BUTTON_2_URL', null, CONFIG)}
-                            className={`signUpBtn ${buttonTextColor} rounded-md bg-white bg-opacity-20 px-6 py-2 text-base font-bold duration-300 ease-in-out hover:bg-opacity-100 hover:text-dark`}
+                            className={`signUpBtn ${buttonTextColor} rounded-md px-6 py-2 text-base font-bold ease-in-out hover:bg-opacity-100 hover:text-dark`}
                             >
                            {siteConfig('STARTER_NAV_BUTTON_2_TEXT', null, CONFIG)}
                             </a>
