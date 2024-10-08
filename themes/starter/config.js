@@ -347,7 +347,7 @@ const CONFIG = {
       ]
     }
   ],
-  *//
+  */
 
   // STARTER_FOOTER_BLOG_LATEST_TITLE: '最新文章',
 
