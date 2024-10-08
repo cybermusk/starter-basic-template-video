@@ -348,15 +348,15 @@ const CONFIG = {
     }
   ],
   */
-
-  // STARTER_FOOTER_BLOG_LATEST_TITLE: '最新文章',
+    
+  STARTER_FOOTER_BLOG_LATEST_TITLE: '最新文章',
 
   STARTER_FOOTER_PRIVACY_POLICY_TEXT: 'Become an Affiliate',
   STARTER_FOOTER_PRIVACY_POLICY_URL: '/affiliate',
 
   STARTER_FOOTER_PRIVACY_LEGAL_NOTICE_TEXT: 'Privacy Policy',
   STARTER_FOOTER_PRIVACY_LEGAL_NOTICE_URL: '/safety/privacy-policy',
-
+    
   STARTER_FOOTER_PRIVACY_TERMS_OF_SERVICE_TEXT: 'Service Agreement',
   STARTER_FOOTER_PRIVACY_TERMS_OF_SERVICE_URL: '/safety/service-agreement',
 
