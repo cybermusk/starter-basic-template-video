@@ -328,7 +328,6 @@ const CONFIG = {
       ]
     },
     
-    /*
     {
       TITLE: 'Notion写作',
       LINK_GROUP: [
@@ -347,9 +346,8 @@ const CONFIG = {
       ]
     }
   ],
-  */
     
-  STARTER_FOOTER_BLOG_LATEST_TITLE: '最新文章',
+  // STARTER_FOOTER_BLOG_LATEST_TITLE: '最新文章',
 
   STARTER_FOOTER_PRIVACY_POLICY_TEXT: 'Become an Affiliate',
   STARTER_FOOTER_PRIVACY_POLICY_URL: '/affiliate',
