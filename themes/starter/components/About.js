@@ -35,6 +35,7 @@ export const About = () => {
                 <a
                   href={siteConfig('STARTER_ABOUT_BUTTON_URL', null, CONFIG)}
                   className="inline-flex items-center justify-center rounded-md border bg-[#FF6666] px-7 py-3 text-center text-2xl font-bold text-white hover:bg-[#cda780]"
+                  rel="nofollow"
                 >
                   {siteConfig('STARTER_ABOUT_BUTTON_TEXT', null, CONFIG)}
                 </a>
