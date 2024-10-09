@@ -28,7 +28,7 @@ export const Footer = props => {
                 <a className='mb-6 inline-block max-w-[160px]'>
                   <div class="navbar-logo flex items-center w-full py-5 cursor-pointer"><span class="text-white dark:text-white py-1.5 header-logo-text whitespace-nowrap text-2xl font-semibold">starter-常用模板™</span></div>
                 </a>
-                <p className='mb-8 max-w-[270px] text-base text-gray-7'>
+                <p className='mb-8 md:max-w-[270px] text-base text-gray-7'>
                   {siteConfig('STARTER_FOOTER_SLOGAN', null, CONFIG)}
                 </p>
                 <div className='-mx-3 flex items-center'>
