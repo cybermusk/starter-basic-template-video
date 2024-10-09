@@ -211,7 +211,7 @@ const CONFIG = {
       STARTER_TEAM_ITEM_NAME: 'L********',
       STARTER_TEAM_ITEM_age: 'Age: 25',
       STARTER_TEAM_ITEM_gender: 'Sugar Baby',
-      STARTER_TEAM_ITEM_location: 'Halifax, Nova Scotia',
+      STARTER_TEAM_ITEM_location: 'New York City, New York',
       STARTER_TEAM_ITEM_state: 'Online Recently',
       STARTER_TEAM_ITEM_DESCRIPTION1: 'Sweet and sassyyy',
       STARTER_TEAM_ITEM_DESCRIPTION2: 'A go with the flow type of person - Be bold! Tell me about yourself...'
@@ -221,7 +221,7 @@ const CONFIG = {
       STARTER_TEAM_ITEM_NAME: 'Melissa Tatcher',
       STARTER_TEAM_ITEM_age: 'Age: 19',
       STARTER_TEAM_ITEM_gender: 'Sugar Daddy',
-      STARTER_TEAM_ITEM_location: 'Halifax, Nova Scotia',
+      STARTER_TEAM_ITEM_location: 'Los Angeles, California',
       STARTER_TEAM_ITEM_state: 'Online Recently',
       STARTER_TEAM_ITEM_DESCRIPTION1: 'looking for a loving partner',
       STARTER_TEAM_ITEM_DESCRIPTION2: 'danceing card playing .driving .gardeinng .going out.lots of making...'
@@ -231,7 +231,7 @@ const CONFIG = {
       STARTER_TEAM_ITEM_NAME: 'Stuard Ferrel',
       STARTER_TEAM_ITEM_age: 'Age: 19',
       STARTER_TEAM_ITEM_gender: 'Sugar Baby',
-      STARTER_TEAM_ITEM_location: 'Halifax, Nova Scotia',
+      STARTER_TEAM_ITEM_location: 'Chicago, Illinois',
       STARTER_TEAM_ITEM_state: 'Online Recently',
       STARTER_TEAM_ITEM_DESCRIPTION1: 'Physical Touch is a powerful thing',
       STARTER_TEAM_ITEM_DESCRIPTION2: 'typically can be found in the woods having a time, dirtbiking, bon-...'
@@ -241,7 +241,7 @@ const CONFIG = {
       STARTER_TEAM_ITEM_NAME: 'Eva Hudson',
       STARTER_TEAM_ITEM_age: 'Age: 19',
       STARTER_TEAM_ITEM_gender: 'Sugar Daddy',
-      STARTER_TEAM_ITEM_location: 'Halifax, Nova Scotia',
+      STARTER_TEAM_ITEM_location: 'Miami, Florida',
       STARTER_TEAM_ITEM_state: 'Online Recently',
       STARTER_TEAM_ITEM_DESCRIPTION1: 'very open minded, fetish friendly',
       STARTER_TEAM_ITEM_DESCRIPTION2: 'I love the outdoors, food, music, and photography. 2 costly fetishes...'
