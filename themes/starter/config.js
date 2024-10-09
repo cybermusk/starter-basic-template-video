@@ -120,55 +120,56 @@ const CONFIG = {
   STARTER_TESTIMONIALS_ITEMS: [
     {
       STARTER_TESTIMONIALS_ITEM_TEXT:
-        '感谢大佬的方法。之前尝试过Super、Potion等国外的第三方平台，实现效果一般，个性化程度远不如这个方法，已经用起来了！ ',
+        'Found someone on here that will spoil me as the princess I am. They\'re amazing and I\'m glad I found them. They make me feel beautiful and amazing and I\'m so happy I found them. I wasn\'t looking for anything but now I have found something so magical.',
       STARTER_TESTIMONIALS_ITEM_AVATAR:
         'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F22de3fcb-d90d-4271-bc01-f815f476122b%2F4FE0A0C0-E487-4C74-BF8E-6F01A27461B8-14186-000008094BC289A6.jpg?table=collection&id=a320a2cc-6ebe-4a8d-95cc-ea94e63bced9&width=200',
-      STARTER_TESTIMONIALS_ITEM_NICKNAME: 'Ryan_G',
-      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: 'Ryan`Log 站长',
+      STARTER_TESTIMONIALS_ITEM_NICKNAME: 'Samantha',
+      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: '22-year-old Sugar Baby',
       STARTER_TESTIMONIALS_ITEM_URL: '/signup'
     },
     {
       STARTER_TESTIMONIALS_ITEM_TEXT:
-        '很喜欢这个主题，本代码小白用三天台风假期搭建出来了，还根据大佬的教程弄了自定义域名，十分感谢，已请喝咖啡~',
+        'Thank you so much for providing the medium necessary for me to find someone I want to spend forever with! I knew this would happen and it finally did. Thank you, I\'ll appreciate you forever and refer others but I have to focus my energy on one woman now :) Take care!',
       STARTER_TESTIMONIALS_ITEM_AVATAR:
         'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0d33d169-f932-41ff-ac6b-88a923c08e02%2F%25E5%25A4%25B4%25E5%2583%258F.jfif?table=collection&id=7787658d-d5c0-4f34-8e32-60c523dfaba3&width=400',
-      STARTER_TESTIMONIALS_ITEM_NICKNAME: 'Asenkits',
-      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: '阿森的百宝袋 站长',
+      STARTER_TESTIMONIALS_ITEM_NICKNAME: 'James',
+      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: '40-year-old Sugar Daddy',
       STARTER_TESTIMONIALS_ITEM_URL: '/signup'
     },
     {
       STARTER_TESTIMONIALS_ITEM_TEXT:
-        '呜呜呜，经过一个下午的努力，终于把博客部署好啦，非常感谢Tangly1024大佬的框架和教程，这是我有生之年用过的最好用的博客框架┭┮﹏┭┮。从今之后，我就可以在自己的博客里bb啦，( •̀ ω •́ )y ',
+        'I found my sugar daddy and no longer need this site. After so many pointless conversations, I finally struck gold. I am so thankful for this site for helping me find him ♥️♥️♥️ forever his and forever grateful.',
       STARTER_TESTIMONIALS_ITEM_AVATAR:
         'https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F6c096b44-beb9-48ee-8f92-1efdde47f3a3%2F338962f1-d352-49c7-9a1b-746e35a7005c%2Fhf.png?table=block&id=ce5a48a9-d77a-4843-a3d9-a78cd4f794ce&spaceId=6c096b44-beb9-48ee-8f92-1efdde47f3a3&width=100&userId=27074aef-7216-41ed-baef-d9b53addd870&cache=v2',
-      STARTER_TESTIMONIALS_ITEM_NICKNAME: 'DWIND',
-      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: '且听风吟 站长',
+      STARTER_TESTIMONIALS_ITEM_NICKNAME: 'Jessica',
+      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: '28-year-old Sugar Baby',
       STARTER_TESTIMONIALS_ITEM_URL: '/signup'
     },
     {
       STARTER_TESTIMONIALS_ITEM_TEXT:
-        '感谢提供这么好的项目哈哈 之前一直不知道怎么部署(别的项目好难好复杂)这个相对非常简单 新手非常友好哦',
+        'We met up and hit it off, and now I don\'t need to keep my account active anymore. We\'re happy together and traveling the world. Getting married soon in a few months.',
       STARTER_TESTIMONIALS_ITEM_AVATAR:
         'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd52f6766-3e32-4c3d-8529-46e1f214360f%2Ffavicon.svg?table=collection&id=7d76aad5-a2c4-4d9a-887c-c7913fae4eed&width=400',
-      STARTER_TESTIMONIALS_ITEM_NICKNAME: '迪升disheng ',
-      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: 'AI资源分享 Blog',
+      STARTER_TESTIMONIALS_ITEM_NICKNAME: 'Michael & Emma',
+      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: 'Couple, 32 and 29 years old',
       STARTER_TESTIMONIALS_ITEM_URL: '/signup'
     },
     {
       STARTER_TESTIMONIALS_ITEM_TEXT:
-        '灰常感谢大佬的博客项目，能将博客和notion结合起来，这一直是我挺期待的博客模式。',
+        'He wants to take care of me, and I want to do the same for him. We are going steady, and it doesn\'t take much except trust and honesty about our true intentions.',
       STARTER_TESTIMONIALS_ITEM_AVATAR:
         'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fafb21381-f51b-4fd0-9998-800dbeb64dbe%2Favatar.png?table=block&id=195935d2-0d8d-49fc-bd81-1db42ee50840&spaceId=6c096b44-beb9-48ee-8f92-1efdde47f3a3&width=100&userId=27074aef-7216-41ed-baef-d9b53addd870&cache=v2',
-      STARTER_TESTIMONIALS_ITEM_NICKNAME: 'AnJhon',
-      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: 'Anjhon`s Blog 站长',
+      STARTER_TESTIMONIALS_ITEM_NICKNAME: 'Grace',
+      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: '27-year-old Sugar Baby',
       STARTER_TESTIMONIALS_ITEM_URL: '/signup'
     },
     {
-      STARTER_TESTIMONIALS_ITEM_TEXT: '用好久了，太感谢了',
+      STARTER_TESTIMONIALS_ITEM_TEXT:
+        'Very handsome and loving man I will be enjoying long talks with. I\'m excited for this new opportunity that came my way. Love this app so much. Look at me now, I found my match on here!',
       STARTER_TESTIMONIALS_ITEM_AVATAR:
         'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fe4f391d7-7d65-4c05-a82c-c6e2c40f06e4%2Fa2a7641a26b367608c6ef28ce9b7e983_(2).png?table=block&id=a386eb0e-4c07-4b18-9ece-bba4e79ce21c&spaceId=6c096b44-beb9-48ee-8f92-1efdde47f3a3&width=100&userId=27074aef-7216-41ed-baef-d9b53addd870&cache=v2',
-      STARTER_TESTIMONIALS_ITEM_NICKNAME: 'LUCEN',
-      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: 'LUCEN考验辅导 站长',
+      STARTER_TESTIMONIALS_ITEM_NICKNAME: 'Sophia',
+      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: '25-year-old Sugar Baby',
       STARTER_TESTIMONIALS_ITEM_URL: '/signup'
     }
   ],
@@ -181,19 +182,21 @@ const CONFIG = {
 
   STARTER_FAQ_1_QUESTION: 'Dating Attractive Women',
   STARTER_FAQ_1_ANSWER:
-    'NotionNext提供了<a href="https://docs.tangly1024.com/about" className="underline">帮助文档</a>，操作<a href="https://www.bilibili.com/video/BV1fM4y1L7Qi/" className="underline">演示视频</a>，以及<a href="https://docs.tangly1024.com/article/chat-community" className="underline">交流社群</a>来协助您完成网站的搭建部署',
+    'At SugarDaddyAmerica.com, you’ll find women who are not just attractive but exceptional in every way—captivating, intelligent, and fiercely ambitious. With a stunning 4 to 1 female-to-male ratio, your chances of meeting the ideal partner are practically guaranteed.',
 
   STARTER_FAQ_2_QUESTION: 'All Members Verified',
   STARTER_FAQ_2_ANSWER:
-    '您可以在Notion中之间添加或修改类型为Post的页面，内容将被实时同步在站点中，详情参考<a className="underline" href="https://docs.tangly1024.com/article/start-to-write">《帮助文档》</a>',
+    'At SugarDaddyAmerica.com, you can trust that all members are verified, ensuring a safe and genuine experience. Each profile is authenticated, allowing you to connect with real individuals who are serious about building meaningful relationships. With this level of assurance, you can focus on finding your perfect match with confidence.
+
+',
 
   STARTER_FAQ_3_QUESTION: 'Dating Successful Men',
   STARTER_FAQ_3_ANSWER:
-    '通常是配置修改错误导致，请检查配置或者重试操作步骤，或者通过Vercel后台的Deployments中找到错误日志，并向网友求助',
+    'At SugarDaddyAmerica.com, you’ll encounter successful men who are not only dynamic and charismatic but also value meaningful connections. With their ambition and engaging personalities, your chances of finding an extraordinary partner are significantly enhanced.',
 
   STARTER_FAQ_4_QUESTION: '24 / 7 LIVE SUPPORT TEAM',
   STARTER_FAQ_4_ANSWER:
-    '先检查Notion_Page_ID是否正确配置，其次由于博客的每个页面都有独立缓存，刷新网页后即可解决',
+    'At SugarDaddyAmerica.com, our 24/7 live support team is always here for you, ensuring that you have assistance whenever you need it. Whether you have questions or need guidance, our dedicated professionals are ready to help you navigate your journey, making your experience seamless and enjoyable.',
 
   // 团队成员区块
   STARTER_TEAM_ENABLE: true, // 团队成员区块开关
