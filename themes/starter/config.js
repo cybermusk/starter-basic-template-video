@@ -306,7 +306,7 @@ const CONFIG = {
     }
   ],
 
-  STARTER_FOOTER_SLOGAN: '我们通过技术为品牌和公司创造数字体验。',
+  STARTER_FOOTER_SLOGAN: 'Disclaimer: You must be over 19 to join. SugarDaddyMeetSG is not an escort service. SugarDaddyMeetSG does not support escorts or prostitution. Profiles that may violate these terms and services will be banned.',
 
   // 页脚三列菜单组
   STARTER_FOOTER_LINK_GROUP: [
