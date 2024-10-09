@@ -118,6 +118,7 @@ export const Testimonials = () => {
                         <a
                           href={item.STARTER_TESTIMONIALS_ITEM_URL}
                           className='flex items-center gap-4'>
+                          rel="nofollow"
                           <div className='h-[50px] w-[50px] overflow-hidden rounded-full'>
                             <img
                               src={item.STARTER_TESTIMONIALS_ITEM_AVATAR}
