@@ -186,9 +186,7 @@ const CONFIG = {
 
   STARTER_FAQ_2_QUESTION: 'All Members Verified',
   STARTER_FAQ_2_ANSWER:
-    'At SugarDaddyAmerica.com, you can trust that all members are verified, ensuring a safe and genuine experience. Each profile is authenticated, allowing you to connect with real individuals who are serious about building meaningful relationships. With this level of assurance, you can focus on finding your perfect match with confidence.
-
-',
+    'At SugarDaddyAmerica.com, you can trust that all members are verified, ensuring a safe and genuine experience. Each profile is authenticated, allowing you to connect with real individuals who are serious about building meaningful relationships. With this level of assurance, you can focus on finding your perfect match with confidence.',
 
   STARTER_FAQ_3_QUESTION: 'Dating Successful Men',
   STARTER_FAQ_3_ANSWER:
