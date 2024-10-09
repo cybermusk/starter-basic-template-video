@@ -329,20 +329,11 @@ const CONFIG = {
     },
     
     {
-      TITLE: 'Notion写作',
+      TITLE: 'OTHER DATING LOCATIONS',
       LINK_GROUP: [
-        {
-          TITLE: 'Notion开始写作',
-          URL: 'https://docs.tangly1024.com/article/start-to-write'
-        },
-        {
-          TITLE: '快捷键提升效率',
-          URL: 'https://docs.tangly1024.com/article/notion-short-key'
-        },
-        {
-          TITLE: '中国大陆使用Notion',
-          URL: 'https://docs.tangly1024.com/article/notion-faster'
-        }
+        { TITLE: 'Sugar Daddy Canada', URL: 'https://www.sugar-daddy-canada.com' }
+        //{ TITLE: '快捷键提升效率', URL: 'https://docs.tangly1024.com/article/notion-short-key' },
+        //{ TITLE: '中国大陆使用Notion', URL: 'https://docs.tangly1024.com/article/notion-faster' }
       ]
     }
   ],
