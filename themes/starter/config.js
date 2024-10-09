@@ -182,19 +182,19 @@ const CONFIG = {
 
   STARTER_FAQ_1_QUESTION: 'Dating Attractive Women',
   STARTER_FAQ_1_ANSWER:
-    'At SugarDaddyAmerica.com, you’ll find women who are not just attractive but exceptional in every way—captivating, intelligent, and fiercely ambitious. With a stunning 4 to 1 female-to-male ratio, your chances of meeting the ideal partner are practically guaranteed.',
+    'As a successful man, you\'ll find women who are not just attractive but exceptional in every way—captivating, intelligent, and fiercely ambitious. With a stunning 4 to 1 female-to-male ratio, your chances of meeting the ideal partner are practically guaranteed.',
 
   STARTER_FAQ_2_QUESTION: 'All Members Verified',
   STARTER_FAQ_2_ANSWER:
-    'At SugarDaddyAmerica.com, you can trust that all members are verified, ensuring a safe and genuine experience. Each profile is authenticated, allowing you to connect with real individuals who are serious about building meaningful relationships. With this level of assurance, you can focus on finding your perfect match with confidence.',
+    'You can trust that all members are verified, ensuring a safe and genuine experience. Each profile is authenticated, allowing you to connect with real individuals who are serious about building meaningful relationships. With this level of assurance, you can focus on finding your perfect match with confidence.',
 
   STARTER_FAQ_3_QUESTION: 'Dating Successful Men',
   STARTER_FAQ_3_ANSWER:
-    'At SugarDaddyAmerica.com, you’ll encounter successful men who are not only dynamic and charismatic but also value meaningful connections. With their ambition and engaging personalities, your chances of finding an extraordinary partner are significantly enhanced.',
+    'As an attractive woman, you\'ll encounter successful men who are not only dynamic and charismatic but also value meaningful connections. With their ambition and engaging personalities, your chances of finding an extraordinary partner are significantly enhanced.',
 
   STARTER_FAQ_4_QUESTION: '24 / 7 LIVE SUPPORT TEAM',
   STARTER_FAQ_4_ANSWER:
-    'At SugarDaddyAmerica.com, our 24/7 live support team is always here for you, ensuring that you have assistance whenever you need it. Whether you have questions or need guidance, our dedicated professionals are ready to help you navigate your journey, making your experience seamless and enjoyable.',
+    'Our 24/7 live support team is always here for you, ensuring that you have assistance whenever you need it. Whether you have questions or need guidance, our dedicated professionals are ready to help you navigate your journey, making your experience seamless and enjoyable.',
 
   // 团队成员区块
   STARTER_TEAM_ENABLE: true, // 团队成员区块开关
