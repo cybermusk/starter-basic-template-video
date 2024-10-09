@@ -84,12 +84,14 @@ export const NavBar = (props) => {
                             <a
                             href={siteConfig('STARTER_NAV_BUTTON_1_URL', null, CONFIG)}
                             className={`loginBtn ${buttonTextColor}  text-black px-[22px] py-2 text-base font-medium hover:opacity-100`}
+                            rel="nofollow"
                             >
                            {siteConfig('STARTER_NAV_BUTTON_1_TEXT', null, CONFIG)}
                             </a>
                             <a
                             href={siteConfig('STARTER_NAV_BUTTON_2_URL', null, CONFIG)}
                             className={`signUpBtn ${buttonTextColor} rounded-md px-6 py-2 text-base font-bold ease-in-out hover:bg-opacity-100 hover:text-dark`}
+                            rel="nofollow"
                             >
                            {siteConfig('STARTER_NAV_BUTTON_2_TEXT', null, CONFIG)}
                             </a>
