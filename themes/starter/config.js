@@ -10,8 +10,8 @@ const CONFIG = {
 
   // 英雄区块导航
   STARTER_HERO_ENABLE: true, // 开启英雄区
-  STARTER_HERO_TITLE_1: 'Sugar Daddy Mexico', // 英雄区文字
-  STARTER_HERO_TITLE_2: 'The best sugar daddy dating site for seeking secret arrangements in Mexico. Join to meet local wealthy men and attractive women in your area! We have over 5 million users', // 英雄区文字
+  STARTER_HERO_TITLE_1: 'Sugar Daddy America', // 英雄区文字
+  STARTER_HERO_TITLE_2: 'The best sugar daddy dating site for seeking secret arrangements in America. Join to meet local wealthy men and attractive women in your area! We have over 8 million menbers', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   STARTER_HERO_BUTTON_1_TEXT: 'SEE YOUR MATCHES', // 英雄区按钮
   STARTER_HERO_BUTTON_1_URL:
@@ -59,9 +59,9 @@ const CONFIG = {
 
   // 首页ABOUT区块
   STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
-  STARTER_ABOUT_TITLE: 'Seeking Sugar Daddy & Sugar Baby for Arrangement Dating in Mexico',
+  STARTER_ABOUT_TITLE: 'Seeking Sugar Daddy & Sugar Baby for Arrangement in America',
   STARTER_ABOUT_TEXT:
-    'Welcome to SugarDaddyMexico.com.mx, the best sugar daddy dating site in Mexico! Just in case you don’t know it yet, Mexico is the country with the most number of sugar daddies at approximately 180,000. Now, that’s a lot! These hundreds of thousands of sugar daddies are all out to look for the perfect sugar baby that can become their companion and bring their wildest and biggest fantasies to life. <br /> <br /> Similarly, there are also large populations of sugar babies who are searching for a man who can provide their needs. Sugar babies are dynamic and young and Mexican sugar babies in particular are well known far and wide for their beauty. But, more than their physical appearance, these ladies are also perfectly compatible with successful and mature men because of their open-mindedness and easy-going nature. If you also want to experience what it is like to date a Mexican sugar daddy, read on below to know more about what you can expect here at SugarDaddyMexico.com.mx.',
+    'Welcome to SugarDaddyAmerica.com, the best sugar daddy dating site in America. Here, sugar babies can easily find successful and attractive sugar daddies to enjoy luxurious fun and experience the ideal lifestyle together. This website provides you with a safe environment to build deep connections with like-minded people and embark on sweet adventures.<br/> <br/>At the same time, sugar daddies can reach sugar babies who are eager for quality relationships and looking for a partner to share their lives. In this social network full of opportunities, you will find outstanding women who share your values, making every date full of surprises and joy. SugarDaddyAmerica.com looks forward to starting your own wonderful journey with you!',
   STARTER_ABOUT_BUTTON_TEXT: 'Join Now',
   STARTER_ABOUT_BUTTON_URL: '/signup',
   STARTER_ABOUT_IMAGE_1: '/images/starter/about/about-image-01.jpg', // /images/starter/about/about-image-01.jpg
@@ -110,10 +110,10 @@ const CONFIG = {
 
   // 首页用户测评区块
   STARTER_TESTIMONIALS_ENABLE: true, // 测评区块开关
-  STARTER_TESTIMONIALS_TITLE: '用户反馈',
-  STARTER_TESTIMONIALS_TEXT_1: '我们的用户怎么说',
+  STARTER_TESTIMONIALS_TITLE: 'TESTIMONIALS',
+  STARTER_TESTIMONIALS_TEXT_1: 'SUCCESS STORIES',
   STARTER_TESTIMONIALS_TEXT_2:
-    '数千位站长选择用NotionNext搭建他们的网站,通过帮助手册、交流社群以及技术咨询，大家成功上线了自己的网站',
+    'Over the past decade, tens of thousands of sugar daddies and sugar babies have met at Sugar Daddy America, and written many sweet stories',
   STARTER_TESTIMONIALS_STAR_ICON: '/images/starter/testimonials/icon-star.svg', // 评分图标
 
   // 这里不支持CONFIG和环境变量，需要一一修改此处代码。
@@ -175,32 +175,32 @@ const CONFIG = {
 
   //   FAQ 常见问题模块
   STARTER_FAQ_ENABLE: true, // 常见问题模块开关
-  STARTER_FAQ_TITLE: '常见问题解答',
-  STARTER_FAQ_TEXT_1: '有任何问题吗？请看这里',
-  STARTER_FAQ_TEXT_2: '我们收集了常见的用户疑问',
+  STARTER_FAQ_TITLE: 'BENEFITS',
+  STARTER_FAQ_TEXT_1: 'UNIQUE ADVANTAGES',
+  STARTER_FAQ_TEXT_2: 'Make quality connections through unique mechanisms and features',
 
-  STARTER_FAQ_1_QUESTION: 'NotionNext有帮助文档吗？', //第一行左
+  STARTER_FAQ_1_QUESTION: 'Dating Attractive Women',
   STARTER_FAQ_1_ANSWER:
     'NotionNext提供了<a href="https://docs.tangly1024.com/about" className="underline">帮助文档</a>，操作<a href="https://www.bilibili.com/video/BV1fM4y1L7Qi/" className="underline">演示视频</a>，以及<a href="https://docs.tangly1024.com/article/chat-community" className="underline">交流社群</a>来协助您完成网站的搭建部署',
 
-  STARTER_FAQ_2_QUESTION: '部署后要如何编写文章？', //第二行左
+  STARTER_FAQ_2_QUESTION: 'All Members Verified',
   STARTER_FAQ_2_ANSWER:
     '您可以在Notion中之间添加或修改类型为Post的页面，内容将被实时同步在站点中，详情参考<a className="underline" href="https://docs.tangly1024.com/article/start-to-write">《帮助文档》</a>',
 
-  STARTER_FAQ_3_QUESTION: '站点部署失败，更新失败？', //第一行右
+  STARTER_FAQ_3_QUESTION: 'Dating Successful Men',
   STARTER_FAQ_3_ANSWER:
     '通常是配置修改错误导致，请检查配置或者重试操作步骤，或者通过Vercel后台的Deployments中找到错误日志，并向网友求助',
 
-  STARTER_FAQ_4_QUESTION: '文章没有实时同步？', //第二行右
+  STARTER_FAQ_4_QUESTION: '24 / 7 LIVE SUPPORT TEAM',
   STARTER_FAQ_4_ANSWER:
     '先检查Notion_Page_ID是否正确配置，其次由于博客的每个页面都有独立缓存，刷新网页后即可解决',
 
   // 团队成员区块
   STARTER_TEAM_ENABLE: true, // 团队成员区块开关
-  STARTER_TEAM_TITLE: '团队成员',
-  STARTER_TEAM_TEXT_1: '我们的开发者团队',
+  STARTER_TEAM_TITLE: 'DATING',
+  STARTER_TEAM_TEXT_1: 'ONLINE MEMBER',
   STARTER_TEAM_TEXT_2:
-    'NotionNext 由众多开源技术爱好者们共同合作完成，感谢每一位<a className="underline" href="https://github.com/tangly1024/NotionNext/graphs/contributors">贡献者</a>',
+    'Millions of successful men and attractive women are waiting for you to chat',
 
   // 这里不支持CONFIG和环境变量，需要一一修改此处代码。
   STARTER_TEAM_ITEMS: [
