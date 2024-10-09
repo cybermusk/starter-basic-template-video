@@ -207,7 +207,8 @@ const CONFIG = {
     {
       STARTER_TEAM_ITEM_AVATAR:
         '/images/starter/team/team-01.png',
-      STARTER_TEAM_ITEM_NAME: 'Tangly',
+      STARTER_TEAM_ITEM_NAME: 'L********',
+      STARTER_TEAM_ITEM_age: 'Age: 25',
       STARTER_TEAM_ITEM_gender: 'Sugar Baby',
       STARTER_TEAM_ITEM_location: 'Halifax, Nova Scotia',
       STARTER_TEAM_ITEM_state: 'Online Recently',
@@ -217,6 +218,7 @@ const CONFIG = {
     {
       STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-01.png',
       STARTER_TEAM_ITEM_NAME: 'Melissa Tatcher',
+      STARTER_TEAM_ITEM_age: 'Age: 19',
       STARTER_TEAM_ITEM_gender: 'Sugar Daddy',
       STARTER_TEAM_ITEM_location: 'Halifax, Nova Scotia',
       STARTER_TEAM_ITEM_state: 'Online Recently',
@@ -226,6 +228,7 @@ const CONFIG = {
     {
       STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-02.png',
       STARTER_TEAM_ITEM_NAME: 'Stuard Ferrel',
+      STARTER_TEAM_ITEM_age: 'Age: 19',
       STARTER_TEAM_ITEM_gender: 'Sugar Baby',
       STARTER_TEAM_ITEM_location: 'Halifax, Nova Scotia',
       STARTER_TEAM_ITEM_state: 'Online Recently',
@@ -235,6 +238,7 @@ const CONFIG = {
     {
       STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-03.png',
       STARTER_TEAM_ITEM_NAME: 'Eva Hudson',
+      STARTER_TEAM_ITEM_age: 'Age: 19',
       STARTER_TEAM_ITEM_gender: 'Sugar Daddy',
       STARTER_TEAM_ITEM_location: 'Halifax, Nova Scotia',
       STARTER_TEAM_ITEM_state: 'Online Recently',
