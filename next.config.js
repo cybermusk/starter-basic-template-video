@@ -102,6 +102,21 @@ const nextConfig = {
             source: '/feed',
             destination: '/rss/feed.xml',
             permanent: true
+          },
+          {
+            source: '/signup',  // 添加重定向规则
+            destination: 'https://www.sugardaddymeet.com/registerStep1?tid=af100028782-m',
+            permanent: true, // 使用 301 重定向
+          },
+          {
+            source: '/login',  // 添加重定向规则
+            destination: 'https://www.sugardaddymeet.com/login?tid=af100028782-m',
+            permanent: true, // 使用 301 重定向
+          },
+          {
+            source: '/undefined',  // 添加重定向规则
+            destination: 'https://www.sugardaddymeet.com/registerStep1?tid=af100028782-m',
+            permanent: true, // 使用 301 重定向
           }
         ]
       },
