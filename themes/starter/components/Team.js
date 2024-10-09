@@ -57,27 +57,35 @@ export const Team = () => {
 
                     {/* 文字介绍 */}
                     <div className='text-center'>
+                      
                       <a href='/signup' rel='nofollow' className='mb-1 text-lg font-semibold text-dark dark:text-white hover:text-[#cda780]'>
                         {item.STARTER_TEAM_ITEM_NAME}
                       </a>
+                      
+                      <div className='mb-1 text-sm dark:text-dark-6' style={{ display: 'flex', justifyContent: 'space-between' }}>
+                        <p style={{ textAlign: 'left' }}>
+                          {item.STARTER_TEAM_ITEM_gender}
+                        </p>
+                        <p className='opacity-75' style={{ textAlign: 'right' }}>
+                          {item.STARTER_TEAM_ITEM_age}
+                        </p>
+                      </div>
 
-                      <p className='mb-1 text-sm text-body-color dark:text-dark-6'>
-                        {item.STARTER_TEAM_ITEM_gender}
-                      </p>
-
-                      <p className='mb-1 text-sm text-body-color dark:text-dark-6'>
+                      <p className='mb-1 text-sm dark:text-dark-6' style={{ textAlign: 'left' }}>
                         {item.STARTER_TEAM_ITEM_location}
                       </p>
 
-                      <p className='mb-1 text-sm text-[#58C389] dark:text-[#58C389]'>
-                        {item.STARTER_TEAM_ITEM_state}
-                      </p>
+                      <div className='mb-1 text-sm text-[#58C389] dark:text-[#58C389] hover:text-[#cda780]' style={{ textAlign: 'left' }}>
+                        <a href='/signup' rel='nofollow'>
+                          {item.STARTER_TEAM_ITEM_state}
+                        </a>
+                      </div>
 
-                      <p className='mb-1 text-sm font-semibold text-body-color dark:text-dark-6' style={{ textAlign: 'left' }}>
+                      <p className='mb-1 text-sm font-semibold dark:text-dark-6' style={{ textAlign: 'left' }}>
                         {item.STARTER_TEAM_ITEM_DESCRIPTION1}
                       </p>
                       
-                      <p className='mb-1 text-sm text-body-color dark:text-dark-6' style={{ textAlign: 'left' }}>
+                      <p className='mb-1 text-sm dark:text-dark-6' style={{ textAlign: 'left' }}>
                         {item.STARTER_TEAM_ITEM_DESCRIPTION2}
                       </p>
 
