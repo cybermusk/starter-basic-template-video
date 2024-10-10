@@ -334,7 +334,7 @@ const CONFIG = {
     },
     
     {
-      TITLE: 'OTHER DATING LOCATIONS',
+      TITLE: 'LOCATIONS',
       LINK_GROUP: [
         { TITLE: 'Sugar Daddy Canada', URL: 'https://www.sugar-daddy-canada.com' }
         //{ TITLE: '快捷键提升效率', URL: 'https://docs.tangly1024.com/article/notion-short-key' },
