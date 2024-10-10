@@ -137,7 +137,7 @@ export const Footer = props => {
                         null,
                         CONFIG
                       )}
-                      className='px-3 text-base text-gray-7 hover:text-white hover:underline'>
+                      className='px-3 text-base text-gray-7 hover:text-white hover:underline' rel='nofollow'>
                       {siteConfig(
                         'STARTER_FOOTER_PRIVACY_POLICY_TEXT',
                         null,
@@ -150,7 +150,7 @@ export const Footer = props => {
                         null,
                         CONFIG
                       )}
-                      className='px-3 text-base text-gray-7 hover:text-white hover:underline'>
+                      className='px-3 text-base text-gray-7 hover:text-white hover:underline' rel='nofollow'>
                       {siteConfig(
                         'STARTER_FOOTER_PRIVACY_LEGAL_NOTICE_TEXT',
                         null,
@@ -163,7 +163,7 @@ export const Footer = props => {
                         null,
                         CONFIG
                       )}
-                      className='px-3 text-base text-gray-7 hover:text-white hover:underline'>
+                      className='px-3 text-base text-gray-7 hover:text-white hover:underline' rel='nofollow'>
                       {siteConfig(
                         'STARTER_FOOTER_PRIVACY_TERMS_OF_SERVICE_TEXT',
                         null,
@@ -176,7 +176,8 @@ export const Footer = props => {
               <div className='w-full px-4 md:w-1/3 lg:w-1/2'>
                 <div className='my-1 flex justify-center md:justify-end'>
                   <p className='text-base text-gray-7'>
-                    Designed and Developed by
+                    Copyright © 2024 SugarDaddyAmerica.com, INC. All rights reserved.
+                    /*
                     <a
                       href='https://github.com/tangly1024/NotionNext'
                       rel='nofollow noopner noreferrer'
@@ -184,6 +185,7 @@ export const Footer = props => {
                       className='px-1 text-gray-1 hover:underline'>
                       NotionNext {siteConfig('VERSION')}
                     </a>
+                    */
                   </p>
                 </div>
               </div>
