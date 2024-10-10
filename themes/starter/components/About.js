@@ -51,7 +51,7 @@ export const About = () => {
                   >
                     <img
                       src={siteConfig('STARTER_ABOUT_IMAGE_1', null, CONFIG)}
-                      alt="about image"
+                      alt="Sugar Baby"
                       className="h-full w-full object-cover object-center"
                     />
                   </div>
@@ -63,7 +63,7 @@ export const About = () => {
                   >
                     <img
                       src={siteConfig('STARTER_ABOUT_IMAGE_2', null, CONFIG)}
-                      alt="about image"
+                      alt="Sugar Daddy"
                       className="h-full w-full object-cover object-center"
                     />
                   </div>
