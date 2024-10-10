@@ -311,7 +311,7 @@ const CONFIG = {
     }
   ],
 
-  STARTER_FOOTER_SLOGAN: 'Disclaimer: You must be over 19 to join. SugarDaddyMeetSG is not an escort service. SugarDaddyMeetSG does not support escorts or prostitution. Profiles that may violate these terms and services will be banned.',
+  STARTER_FOOTER_SLOGAN: 'At SugarDaddyAmerica, enjoy the fun of sugar dating effortlessly with 2 million successful men and 6 million charming women!',
 
   // 页脚三列菜单组
   STARTER_FOOTER_LINK_GROUP: [
