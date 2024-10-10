@@ -21,7 +21,7 @@ const SocialButton = () => {
         {siteConfig('CONTACT_TWITTER') && (
           <a
             target='_blank'
-            rel='noreferrer nofollow'
+            rel='nofollow noreferrer'
             title={'twitter'}
             href={siteConfig('CONTACT_TWITTER')}>
             <i className='fab fa-twitter transform hover:scale-125 duration-150' />
