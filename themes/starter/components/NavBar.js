@@ -64,7 +64,7 @@ export const NavBar = (props) => {
 
         <div className="container">
 
-            <div className="relative -mx-4 flex items-center justify-between">
+            <div className="relative flex items-center justify-between">
 
                 {/* Logo */}
                 <Logo/>
