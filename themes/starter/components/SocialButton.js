@@ -66,7 +66,7 @@ const SocialButton = () => {
         {siteConfig('CONTACT_EMAIL') && (
           <a
             target='_blank'
-            rel='noreferrer nofollow'
+            rel='nofollow'
             title={'email'}
             href={`mailto:${siteConfig('CONTACT_EMAIL')}`}>
             <i className='fas fa-envelope transform hover:scale-125 duration-150' />
