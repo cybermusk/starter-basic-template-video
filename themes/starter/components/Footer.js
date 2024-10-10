@@ -177,7 +177,7 @@ export const Footer = props => {
                 <div className='my-1 flex justify-center md:justify-end'>
                   <p className='text-base text-gray-7'>
                     Copyright © 2024 SugarDaddyAmerica.com, INC. All rights reserved.
-                    /*
+                  {/*
                     <a
                       href='https://github.com/tangly1024/NotionNext'
                       rel='nofollow noopner noreferrer'
@@ -185,7 +185,7 @@ export const Footer = props => {
                       className='px-1 text-gray-1 hover:underline'>
                       NotionNext {siteConfig('VERSION')}
                     </a>
-                    */
+                  */}
                   </p>
                 </div>
               </div>
