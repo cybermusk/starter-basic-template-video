@@ -21,7 +21,7 @@ const SocialButton = () => {
         {siteConfig('CONTACT_TWITTER') && (
           <a
             target='_blank'
-            rel='nofollow noreferrer'
+            rel='noreferrer nofollow '
             title={'twitter'}
             href={siteConfig('CONTACT_TWITTER')}>
             <i className='fab fa-twitter transform hover:scale-125 duration-150' />
@@ -65,7 +65,7 @@ const SocialButton = () => {
         {siteConfig('CONTACT_EMAIL') && (
           <a
             target='_blank'
-            rel='nofollow'
+            rel='noreferrer nofollow'
             title={'email'}
             href={`mailto:${siteConfig('CONTACT_EMAIL')}`}>
             <i className='fas fa-envelope transform hover:scale-125 duration-150' />
