@@ -29,7 +29,6 @@ const SocialButton = () => {
         )}
         {siteConfig('CONTACT_TELEGRAM') && (
           <a
-            target='_blank'
             rel='noreferrer nofollow'
             href={siteConfig('CONTACT_TELEGRAM')}
             title={'telegram'}>
