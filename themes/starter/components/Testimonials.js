@@ -118,6 +118,7 @@ export const Testimonials = () => {
                         <a
                           href={item.STARTER_TESTIMONIALS_ITEM_URL}
                           className='flex items-center gap-4' rel="nofollow">
+                        {/* 屏蔽头像照片
                           <div className='h-[50px] w-[50px] overflow-hidden rounded-full'>
                             <img
                               src={item.STARTER_TESTIMONIALS_ITEM_AVATAR}
@@ -125,6 +126,7 @@ export const Testimonials = () => {
                               className='h-[50px] w-[50px] overflow-hidden rounded-full object-cover'
                             />
                           </div>
+                        */}
 
                           <div>
                             <p className='text-sm font-semibold text-dark dark:text-white hover:text-[#cda780]'>
