@@ -104,8 +104,13 @@ const nextConfig = {
             permanent: true
           },
           {
-            source: '/signup',  // 添加重定向规则
+            source: '/signup',  // 跳转注册页面
             destination: 'https://www.sugardaddymeet.com/registerStep1?tid=af100028782-m',
+            permanent: true, // 使用 301 重定向
+          },
+          {
+            source: '/join',  // 跳转主站主页
+            destination: 'https://www.sugardaddymeet.com?tid=af100028782-m',
             permanent: true, // 使用 301 重定向
           },
           {
@@ -115,7 +120,7 @@ const nextConfig = {
           },
           {
             source: '/undefined',  // 添加重定向规则
-            destination: 'https://www.sugardaddymeet.com/registerStep1?tid=af100028782-m',
+            destination: '/404',
             permanent: true, // 使用 301 重定向
           }
         ]
