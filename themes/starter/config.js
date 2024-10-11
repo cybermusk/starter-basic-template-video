@@ -11,7 +11,7 @@ const CONFIG = {
   // 英雄区块导航
   STARTER_HERO_ENABLE: true, // 开启英雄区
   STARTER_HERO_TITLE_1: 'Sugar Daddy America', // 英雄区文字
-  STARTER_HERO_TITLE_2: 'The best sugar daddy dating site for seeking secret arrangements in America. Join to meet local wealthy men and attractive women in your area! <strong><em>We have over 8 million menbers</em></strong>', // 英雄区文字
+  STARTER_HERO_TITLE_2: 'The best sugar daddy dating site for seeking secret arrangements in America. Join to meet local wealthy men and attractive women in your area! <strong>We have over 8 million menbers</strong>', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   STARTER_HERO_BUTTON_1_TEXT: 'SEE YOUR MATCHES', // 英雄区按钮
   STARTER_HERO_BUTTON_1_URL:
