@@ -65,7 +65,7 @@ const CONFIG = {
   STARTER_ABOUT_BUTTON_TEXT: 'Join Now',
   STARTER_ABOUT_BUTTON_URL: '/signup',
   STARTER_ABOUT_IMAGE_1: '/images/starter/about/America/sugar baby.png', // /images/starter/about/about-image-01.jpg
-  STARTER_ABOUT_IMAGE_2: '/images/starter/about/America/sugar daddy.png', // /images/starter/about/about-image-02.jpg
+  STARTER_ABOUT_IMAGE_2: '/images/starter/about/America/sugar daddy.jpg', // /images/starter/about/about-image-02.jpg
   STARTER_ABOUT_TIPS_1: '8.3 MILLION+',
   STARTER_ABOUT_TIPS_2: 'VERIFIED MEMBERS',
   STARTER_ABOUT_TIPS_3: 'QUALITY CONNECTIONS',
