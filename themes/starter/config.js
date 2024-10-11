@@ -207,7 +207,7 @@ const CONFIG = {
   STARTER_TEAM_ITEMS: [
     {
       STARTER_TEAM_ITEM_AVATAR:
-        '/images/starter/team/team-01.png',
+        '/images/starter/team/America/L.jpg',
       STARTER_TEAM_ITEM_NAME: 'L********',
       STARTER_TEAM_ITEM_age: 'Age: 25',
       STARTER_TEAM_ITEM_gender: 'Sugar Baby',
@@ -217,9 +217,9 @@ const CONFIG = {
       STARTER_TEAM_ITEM_DESCRIPTION2: 'A go with the flow type of person - Be bold! Tell me about yourself...'
     },
     {
-      STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-01.png',
+      STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/America/M.jpg',
       STARTER_TEAM_ITEM_NAME: 'M******',
-      STARTER_TEAM_ITEM_age: 'Age: 19',
+      STARTER_TEAM_ITEM_age: 'Age: 36',
       STARTER_TEAM_ITEM_gender: 'Sugar Daddy',
       STARTER_TEAM_ITEM_location: 'Los Angeles, California',
       STARTER_TEAM_ITEM_state: 'Online Recently',
@@ -227,7 +227,7 @@ const CONFIG = {
       STARTER_TEAM_ITEM_DESCRIPTION2: 'danceing card playing .driving .gardeinng .going out.lots of making...'
     },
     {
-      STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-02.png',
+      STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/America/S.jpg',
       STARTER_TEAM_ITEM_NAME: 'S***',
       STARTER_TEAM_ITEM_age: 'Age: 19',
       STARTER_TEAM_ITEM_gender: 'Sugar Baby',
@@ -237,9 +237,9 @@ const CONFIG = {
       STARTER_TEAM_ITEM_DESCRIPTION2: 'typically can be found in the woods having a time, dirtbiking, bon-...'
     },
     {
-      STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-03.png',
+      STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/America/E.jpg',
       STARTER_TEAM_ITEM_NAME: 'E********',
-      STARTER_TEAM_ITEM_age: 'Age: 19',
+      STARTER_TEAM_ITEM_age: 'Age: 49',
       STARTER_TEAM_ITEM_gender: 'Sugar Daddy',
       STARTER_TEAM_ITEM_location: 'Miami, Florida',
       STARTER_TEAM_ITEM_state: 'Online Recently',
