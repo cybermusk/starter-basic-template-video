@@ -64,8 +64,8 @@ const CONFIG = {
     'Welcome to SugarDaddyAmerica.com, the best sugar daddy dating site in America. Here, sugar babies can easily find successful and attractive sugar daddies to enjoy luxurious fun and experience the ideal lifestyle together. This website provides you with a safe environment to build deep connections with like-minded people and embark on sweet adventures.<br/> <br/>At the same time, sugar daddies can reach sugar babies who are eager for quality relationships and looking for a partner to share their lives. In this social network full of opportunities, you will find outstanding women who share your values, making every date full of surprises and joy. SugarDaddyAmerica.com looks forward to starting your own wonderful journey with you!',
   STARTER_ABOUT_BUTTON_TEXT: 'Join Now',
   STARTER_ABOUT_BUTTON_URL: '/signup',
-  STARTER_ABOUT_IMAGE_1: '/images/starter/about/about-image-01.jpg', // /images/starter/about/about-image-01.jpg
-  STARTER_ABOUT_IMAGE_2: '/images/starter/about/about-image-02.jpg', // /images/starter/about/about-image-02.jpg
+  STARTER_ABOUT_IMAGE_1: '/images/starter/about/America/sugar baby.png', // /images/starter/about/about-image-01.jpg
+  STARTER_ABOUT_IMAGE_2: '/images/starter/about/America/sugar daddy.png', // /images/starter/about/about-image-02.jpg
   STARTER_ABOUT_TIPS_1: '8.3 MILLION+',
   STARTER_ABOUT_TIPS_2: 'VERIFIED MEMBERS',
   STARTER_ABOUT_TIPS_3: 'QUALITY CONNECTIONS',
