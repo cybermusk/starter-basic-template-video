@@ -218,7 +218,7 @@ const CONFIG = {
     },
     {
       STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-01.png',
-      STARTER_TEAM_ITEM_NAME: 'Melissa Tatcher',
+      STARTER_TEAM_ITEM_NAME: 'M******',
       STARTER_TEAM_ITEM_age: 'Age: 19',
       STARTER_TEAM_ITEM_gender: 'Sugar Daddy',
       STARTER_TEAM_ITEM_location: 'Los Angeles, California',
@@ -228,7 +228,7 @@ const CONFIG = {
     },
     {
       STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-02.png',
-      STARTER_TEAM_ITEM_NAME: 'Stuard Ferrel',
+      STARTER_TEAM_ITEM_NAME: 'S***',
       STARTER_TEAM_ITEM_age: 'Age: 19',
       STARTER_TEAM_ITEM_gender: 'Sugar Baby',
       STARTER_TEAM_ITEM_location: 'Chicago, Illinois',
@@ -238,7 +238,7 @@ const CONFIG = {
     },
     {
       STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-03.png',
-      STARTER_TEAM_ITEM_NAME: 'Eva Hudson',
+      STARTER_TEAM_ITEM_NAME: 'E********',
       STARTER_TEAM_ITEM_age: 'Age: 19',
       STARTER_TEAM_ITEM_gender: 'Sugar Daddy',
       STARTER_TEAM_ITEM_location: 'Miami, Florida',
