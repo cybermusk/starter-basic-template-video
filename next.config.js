@@ -105,17 +105,22 @@ const nextConfig = {
           },
           {
             source: '/signup',  // 跳转注册页面
-            destination: 'https://www.sugardaddymeet.com/registerStep1?tid=af100028782-m',
+            destination: 'https://www.sugardaddymeet.com/registerStep1?tid=af100028782_bl10',
             permanent: true, // 使用 301 重定向
           },
           {
             source: '/join',  // 跳转主站主页
-            destination: 'https://www.sugardaddymeet.com?tid=af100028782-m',
+            destination: 'https://www.sugardaddymeet.com?tid=af100028782_bl10',
             permanent: true, // 使用 301 重定向
           },
           {
             source: '/login',  // 添加重定向规则
-            destination: 'https://www.sugardaddymeet.com/login?tid=af100028782-m',
+            destination: 'https://www.sugardaddymeet.com/login?tid=af100028782_bl10',
+            permanent: true, // 使用 301 重定向
+          },
+          {
+            source: '/download',  // 跳转注册页面
+            destination: 'https://www.sugardaddymeet.com/registerStep1?tid=af100028782_bl10',
             permanent: true, // 使用 301 重定向
           },
           {
