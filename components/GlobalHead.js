@@ -179,6 +179,7 @@ const GlobalHead = props => {
  * 获取SEO信息
  * @param {*} props
  * @param {*} router
+ * 原191行：title: `${siteInfo?.title} | Experience Unique Sugar Dating`,
  */
 const getSEOMeta = (props, router, locale) => {
   const { post, siteInfo, tag, category, page } = props
@@ -187,7 +188,7 @@ const getSEOMeta = (props, router, locale) => {
   switch (router.route) {
     case '/':
       return {
-        title: `${siteInfo?.title} | Experience Unique Sugar Dating`,
+        title: `SugarDaddyAmerica - Join Free | Enjoy Unique Sugar Dating`,
         description: `${siteInfo?.description}`,
         image: `${siteInfo?.pageCover}`,
         slug: '',
