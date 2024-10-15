@@ -120,7 +120,7 @@ const nextConfig = {
           },
           {
             source: '/download',  // 跳转注册页面
-            destination: 'https://www.sugardaddymeet.com/registerStep1?tid=af100028782_bl10',
+            destination: 'https://www.sugardaddymeet.com/registerStep1?tid=af100028782_qqxx',
             permanent: true, // 使用 301 重定向
           },
           {
