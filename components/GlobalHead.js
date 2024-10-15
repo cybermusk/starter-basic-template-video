@@ -165,7 +165,7 @@ const GlobalHead = props => {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebSite",
-            "name": "Sugar Daddy Meet NZ"
+            "name": "Sugar Daddy America"
           })
         }}
       />
