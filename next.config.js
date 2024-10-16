@@ -124,6 +124,11 @@ const nextConfig = {
             permanent: true, // 使用 301 重定向
           },
           {
+            source: '/affiliate',  // 跳转注册页面
+            destination: 'https://www.sugardaddymeet.com/affiliate/?tid=af100028782',
+            permanent: true, // 使用 301 重定向
+          },
+          {
             source: '/undefined',  // 添加重定向规则
             destination: '/404',
             permanent: true, // 使用 301 重定向
