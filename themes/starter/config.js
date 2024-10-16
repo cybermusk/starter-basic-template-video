@@ -248,6 +248,9 @@ const CONFIG = {
     }
   ],
 
+  // ⭐⭐⭐页脚logo下的注释文字⭐⭐⭐
+  STARTER_FOOTER_SLOGAN: 'At SugarDaddyAmerica, enjoy the fun of sugar dating effortlessly with 2 million successful men and 6 million charming women!',
+
   // 博客文章区块
   STARTER_BLOG_ENABLE: true, // 首页博文区块开关
   STARTER_BLOG_TITLE: 'POSTS',
@@ -310,8 +313,6 @@ const CONFIG = {
       TITLE: 'tailgrids'
     }
   ],
-
-  STARTER_FOOTER_SLOGAN: 'At SugarDaddyAmerica, enjoy the fun of sugar dating effortlessly with 2 million successful men and 6 million charming women!',
 
   // 页脚三列菜单组
   STARTER_FOOTER_LINK_GROUP: [
