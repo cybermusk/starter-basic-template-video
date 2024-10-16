@@ -131,7 +131,7 @@ export const Footer = props => {
             <div className='-mx-4 flex flex-wrap'>
               <div className='w-full px-4 md:w-2/3 lg:w-1/2'>
                 <div className='my-1'>
-                  <div className='-mx-3 flex items-center justify-center md:justify-start'>
+                  <div className='-mx-3 flex items-center justify-center md:justify-start flex-wrap'>
                     <a
                       href={siteConfig(
                         'STARTER_FOOTER_PRIVACY_POLICY_URL',
