@@ -199,7 +199,7 @@ const CONFIG = {
   // 团队成员区块
   STARTER_TEAM_ENABLE: true, // 团队成员区块开关
   STARTER_TEAM_TITLE: 'DATING',
-  STARTER_TEAM_TEXT_1: 'ONLINE MEMBER',
+  STARTER_TEAM_TEXT_1: 'ONLINE MEMBERS',
   STARTER_TEAM_TEXT_2:
     'Millions of successful men and attractive women are waiting for you to chat',
 
