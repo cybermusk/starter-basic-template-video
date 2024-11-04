@@ -104,6 +104,17 @@ const NotionPage = ({ post, className }) => {
 
       <AdEmbed />
       <PrismMac />
+
+      {/* 添加按钮 */}
+      <div className="flex justify-center mt-8">
+        <a
+          href="/signup"
+          rel="nofollow"
+          className="bg-[#FF6666] text-white py-2 px-4 rounded transition-colors duration-300 hover:bg-[#CDA780]"
+        >
+          SIGN UP NOW
+        </a>
+      </div>
     </div>
   )
 }
