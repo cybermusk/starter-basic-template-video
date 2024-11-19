@@ -61,7 +61,7 @@ const CONFIG = {
   STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
   STARTER_ABOUT_TITLE: 'Seeking Sugar Daddy & Sugar Baby for Arrangement in America',
   STARTER_ABOUT_TEXT:
-    'Welcome to SugarDaddyAmerica.com, the best sugar daddy dating site in America. Here, sugar babies can easily find successful and attractive sugar daddies to enjoy luxurious fun and experience the ideal lifestyle together. This website provides you with a safe environment to build deep connections with like-minded people and embark on sweet adventures.<br/> <br/>At the same time, sugar daddies can reach sugar babies who are eager for quality relationships and looking for a partner to share their lives. In this social network full of opportunities, you will find outstanding women who share your values, making every date full of surprises and joy. SugarDaddyAmerica.com looks forward to starting your own wonderful journey with you!',
+    '',
   STARTER_ABOUT_BUTTON_TEXT: 'Join Now',
   STARTER_ABOUT_BUTTON_URL: '/signup',
   STARTER_ABOUT_IMAGE_1: '/images/starter/about/America/sugarbaby.jpg', // /images/starter/about/about-image-01.jpg
