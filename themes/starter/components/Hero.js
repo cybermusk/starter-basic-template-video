@@ -33,9 +33,12 @@ export const Hero = () => {
                   {siteConfig('STARTER_HERO_TITLE_1', null, CONFIG)}
                 </h1>
                 {/* 次标题 */}
-                <p className="mx-auto mb-9 max-w-[600px] text-base font-medium text-white sm:text-lg sm:leading-[1.44]">
-                  {siteConfig('STARTER_HERO_TITLE_2', null, CONFIG)}
-                </p>
+                <p 
+                  className="mx-auto mb-9 max-w-[600px] text-base font-medium text-white sm:text-lg sm:leading-[1.44]"
+                  dangerouslySetInnerHTML={{
+                    __html: siteConfig('STARTER_HERO_TITLE_2', null, CONFIG)
+                  }}
+                ></p>
                 {/* 按钮组 */}
                 <ul className="mb-10 flex flex-wrap items-center justify-center gap-5">
                   {siteConfig('STARTER_HERO_BUTTON_1_TEXT', null, CONFIG) && (
