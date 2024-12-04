@@ -15,6 +15,8 @@ export const Hero = () => {
           autoPlay
           loop
           muted
+          poster="/images/starter/custom-images/background.webp"
+          preload="auto"
         >
           <source src="/videos/starter/custom-videos/dating.mp4" type="video/mp4" />
           Your browser does not support the video tag.
