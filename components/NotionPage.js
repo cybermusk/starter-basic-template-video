@@ -115,6 +115,7 @@ const NotionPage = ({ post, className }) => {
           SIGN UP NOW
         </a>
       </div>
+            
     </div>
   )
 }
